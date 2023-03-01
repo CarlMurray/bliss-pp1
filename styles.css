@@ -1,0 +1,16 @@
+/* CSS reset  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Nav bar */
+header {
+    height: 100px;
+}
+
+/* Background colour  */
+body {
+    background-color: #FAE5CE;
+}
