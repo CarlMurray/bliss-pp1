@@ -14,3 +14,39 @@ header {
 body {
     background-color: #FAE5CE;
 }
+
+/* div container styles  */
+.container {
+    width: 80%;
+    margin: auto;
+    max-width: 1500px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'PT Serif', serif;
+    font-weight: bold;
+    border-bottom: 1px solid #7A5E40;
+}
+
+/* bliss logo top left nav bar  */
+.logo {
+    font-size: 48px;
+    font-weight: 700;
+    font-style: italic;
+    color: #7A5E40;
+}
+
+/* style for nav links list  */
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+/* styles for individual list items  */
+.nav-link {
+    margin: 0 0 0 60px;
+    font-size: 24px;
+}
