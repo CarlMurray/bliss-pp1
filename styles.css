@@ -56,3 +56,35 @@ nav a {
     text-decoration: none;
     color: #7A5E40;
 }
+
+main {
+    display: flex;
+    margin: 50px 0 50px;
+    justify-content: space-between;
+
+}
+
+h1 {
+    font-size: 56px;
+    font-style: italic;
+    font-weight: bold;
+    color: #7A5E40;
+    line-height: 68px;
+    font-family: 'PT Serif', serif;
+}
+
+.landing-paragraph {
+    font-family: 'PT Serif', serif;
+    font-size: 20px;
+    font-family: 'PT Sans', sans-serif;
+    width: 80%;
+    margin-top: 15px;
+}
+
+
+.landing-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
