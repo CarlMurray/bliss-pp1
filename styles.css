@@ -57,6 +57,7 @@ nav a {
     color: #7A5E40;
 }
 
+/* landing content formatting  */
 main {
     display: flex;
     margin: 50px 0 50px;
@@ -64,6 +65,7 @@ main {
 
 }
 
+/* landing h1 style  */
 h1 {
     font-size: 56px;
     font-style: italic;
@@ -73,18 +75,51 @@ h1 {
     font-family: 'PT Serif', serif;
 }
 
+/* landing paragraph styling  */
 .landing-paragraph {
     font-family: 'PT Serif', serif;
     font-size: 20px;
     font-family: 'PT Sans', sans-serif;
     width: 80%;
-    margin-top: 15px;
+    /* margin-top: 15px; */
 }
 
-
+/* positioning for landing text - h1 and paragraph */
 .landing-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 50%;
+}
+
+.line-break {
+    width: 40px;
+    height: 4px;
+    background-color: #7A5E40;
+    border: none;
+    border-radius: 2px;
+    margin: 20px 0 25px 0;
+}
+
+
+
+.primary-cta {
+    background-color: #FF754E;
+    color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 22.5px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    text-decoration: none;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+
+
+}
+
+.get-started {
+    width: 165px;
+    margin-top: 20px;
 }
