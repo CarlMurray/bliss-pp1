@@ -110,16 +110,47 @@ h1 {
     border-radius: 22.5px;
     height: 45px;
     text-align: center;
-    line-height: 45px;
     text-decoration: none;
     font-family: 'PT Sans', sans-serif;
     font-size: 16px;
     font-weight: bold;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 
+}
+
+.secondary-cta {
+    background-color: #FAE5CE;
+    color:#7A5E40;
+    border: 1px solid #7A5E40;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 22.5px;
+    height: 45px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .get-started {
     width: 165px;
     margin-top: 20px;
+}
+
+.learn-more {
+    width: 165px;
+    margin: 20px 0 0 10px;
+    font-weight: normal;
+
+}
+
+.landing-cta-wrapper{
+    display: flex;
 }
