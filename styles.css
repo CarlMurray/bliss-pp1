@@ -238,14 +238,13 @@ h2 {
     margin-left: 10px;
 }
 
-.footer-social-links {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .social-link-button {
     width: 40px;
+}
+
+.footer-social-link:nth-child(2) {
+    margin: 0 20px;
 }
 
 
@@ -253,4 +252,8 @@ h2 {
 .page-footer {
     border-top: 1px solid #7A5E40;
     height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
   }
