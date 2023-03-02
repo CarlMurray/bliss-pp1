@@ -124,7 +124,7 @@ h1 {
 
 .secondary-cta {
     background-color: #FAE5CE;
-    color:#7A5E40;
+    color: #7A5E40;
     border: 1px solid #7A5E40;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
     border-radius: 22.5px;
@@ -151,11 +151,11 @@ h1 {
 
 }
 
-.landing-cta-wrapper{
+.landing-cta-wrapper {
     display: flex;
 }
 
-h2{
+h2 {
     font-size: 40px;
     font-style: italic;
     font-weight: bold;
@@ -167,8 +167,9 @@ h2{
     text-align: center;
 }
 
-.why-bliss-content hr {
-margin: 20px auto 35px;}
+.h2-line-break {
+    margin: 20px auto 35px;
+}
 
 .why-bliss-card {
     background-color: #F7E5D1;
@@ -183,10 +184,19 @@ margin: 20px auto 35px;}
     align-items: center;
     justify-content: space-evenly;
     padding: 0 50px;
+    /* margin-bottom: 170px; */
 
 }
 
 .why-bliss-paragraph {
     /* width: 50%; */
-margin: 0 20px;
+    margin: 0 20px;
+}
+
+.dotted-line {
+    width: 170px;
+    border-top: 5px dotted #7A5E40;
+    transform: rotate(90deg);
+    margin: 85px auto;
+
 }
