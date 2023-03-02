@@ -298,4 +298,26 @@ h2 {
     body {
         text-align: center;
     }
+
+    .intro {
+        flex-direction: column;
+    }
+
+    .line-break { 
+        margin: 20px auto 25px;
+    }
+
+    .landing-cta-wrapper {
+        justify-content: center;
+    }
+
+    main {
+        margin: 75px 0;
+    }
+
+    .landing-graphic img{
+        width: 70%;
+        margin-top: 40px;
+    
+    }
 }
