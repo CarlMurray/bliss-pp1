@@ -17,9 +17,9 @@ body {
 
 /* div container styles  */
 .container {
-    width: 80%;
+    max-width: 80%;
     margin: auto;
-    max-width: 1500px;
+    /* max-width: 1500px; */
 }
 
 header {
@@ -71,7 +71,7 @@ h1 {
     font-style: italic;
     font-weight: bold;
     color: #7A5E40;
-    line-height: 68px;
+    /* line-height: 68px; */
     font-family: 'PT Serif', serif;
 }
 
@@ -80,7 +80,7 @@ h1 {
     font-family: 'PT Serif', serif;
     font-size: 20px;
     font-family: 'PT Sans', sans-serif;
-    width: 80%;
+    max-width: 100%;
     /* margin-top: 15px; */
 }
 
@@ -89,7 +89,7 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 50%;
+    max-width: 50%%;
 }
 
 .line-break {
@@ -256,4 +256,8 @@ h2 {
     align-items: center;
     justify-content: center;
     margin-top: 50px;
-  }
+}
+
+.landing-graphic {
+    max-width: 50%;
+}
