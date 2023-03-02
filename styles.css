@@ -60,7 +60,7 @@ nav a {
 /* landing content formatting  */
 main {
     display: flex;
-    margin: 50px 0 50px;
+    margin: 125px 0;
     justify-content: space-between;
 
 }
