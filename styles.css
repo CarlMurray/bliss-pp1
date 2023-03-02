@@ -237,3 +237,20 @@ h2 {
     width: 105px;
     margin-left: 10px;
 }
+
+.footer-social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-link-button {
+    width: 40px;
+}
+
+
+
+.page-footer {
+    border-top: 1px solid #7A5E40;
+    height: 100px;
+  }
