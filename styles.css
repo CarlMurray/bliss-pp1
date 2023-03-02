@@ -67,14 +67,20 @@ main {
 
 /* landing h1 style  */
 h1 {
-    font-size: 56px;
+    /* font-size: 56px; */
     font-style: italic;
     font-weight: bold;
     color: #7A5E40;
     /* line-height: 68px; */
     font-family: 'PT Serif', serif;
-}
+    font-size: clamp(32px, 56px, 56px);
 
+}
+.intro{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 /* landing paragraph styling  */
 .landing-paragraph {
     font-family: 'PT Serif', serif;
@@ -259,5 +265,9 @@ h2 {
 }
 
 .landing-graphic {
-    max-width: 50%;
+    flex: 1;
+}
+
+.landing-intro {
+    flex: 1;
 }
