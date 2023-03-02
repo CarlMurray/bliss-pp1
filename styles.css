@@ -280,3 +280,22 @@ h2 {
 .landing-intro {
     flex: 1;
 }
+
+@media (max-width: 1200px){
+    h1{
+        font-size: 38px;
+    }
+
+    .landing-paragraph {
+        font-size: 16px;
+    }
+    
+    
+}
+
+@media (max-width: 955px){
+
+    body {
+        text-align: center;
+    }
+}
