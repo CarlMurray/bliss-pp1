@@ -438,3 +438,9 @@ h2 {
 .contact-name-email {
     flex: 1;
 }
+
+.contact-paragraph {
+width: 100%;
+margin: 10px 0;
+height: 250px;
+}
