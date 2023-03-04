@@ -430,17 +430,50 @@ h2 {
 
 
 
-.input-container {
+/* .input-container {
     display: flex;
     gap: 10px;
+    flex-basis:  700px;
 }
 
 .contact-name-email {
     flex: 1;
-}
+    /* min-width: 300px; */
+/* } */
+
+.input-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+  }
+  
+  .contact-name-email {
+    flex: 1;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .contact-name-email {
+      flex-basis: 100%;
+    }
+  }
+  
+
 
 .contact-paragraph {
 width: 100%;
 margin: 10px 0;
 height: 250px;
 }
+
+
+/* @media (max-width: 768px) {
+
+    .input-container {
+        /* display: flex; */
+        /* flex-wrap: wrap;
+    }
+
+
+
+} */
