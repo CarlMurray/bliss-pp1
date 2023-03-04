@@ -59,9 +59,10 @@ nav a {
 
 /* landing content formatting  */
 main {
-    display: flex;
+    /* display: flex; */
     margin: 125px 0;
     justify-content: space-between;
+    /* border: 1px solid black; */
 
 }
 
@@ -81,6 +82,7 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    /* border: 1px solid black; */
 }
 
 /* landing paragraph styling  */
@@ -278,7 +280,7 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-shrink: 3;
+    /* border: 1px solid black; */
 
 }
 
@@ -289,6 +291,7 @@ h2 {
 
 .landing-intro {
     flex: 1;
+    /* border: 1px solid black; */
 }
 
 @media (max-width: 1200px) {
@@ -464,7 +467,7 @@ h2 {
 }
 
 
-textarea{
+textarea {
     color: #707070;
     opacity: 1;
     font-family: 'PT Sans', sans-serif;
