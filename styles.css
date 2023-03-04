@@ -275,6 +275,8 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-shrink: 3;
+
 }
 
 .landing-graphic img {
@@ -429,17 +431,9 @@ h2 {
 }
 
 
-
-/* .input-container {
-    display: flex;
-    gap: 10px;
-    flex-basis:  700px;
+.contact-form-container {
+    margin-top: 20px;
 }
-
-.contact-name-email {
-    flex: 1;
-    /* min-width: 300px; */
-/* } */
 
 .input-container {
     display: flex;
