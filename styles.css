@@ -94,6 +94,12 @@ h1 {
     /* margin-top: 15px; */
 }
 
+@media (min-width: 1440px) {
+    .landing-paragraph {
+        max-width: 80%;
+    }
+}
+
 /* positioning for landing text - h1 and paragraph */
 .landing-text {
     display: flex;
