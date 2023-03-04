@@ -17,7 +17,7 @@ body {
 
 /* div container styles  */
 .container {
-    max-width: 80%;
+    width: min(80%, 1440px);
     margin: auto;
     /* max-width: 1500px; */
 }
