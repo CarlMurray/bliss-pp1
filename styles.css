@@ -484,3 +484,8 @@ h3 {
     text-align: center;
     margin: 60px auto 0;
 }
+
+.logo a{
+    text-decoration: none;
+    color: #7A5E40;
+}
