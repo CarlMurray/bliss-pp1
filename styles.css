@@ -94,18 +94,18 @@ h1 {
     /* margin-top: 15px; */
 }
 
-@media (min-width: 1440px) {
+/* @media (min-width: 1440px) {
     .landing-paragraph {
         max-width: 80%;
     }
-}
+} */
 
 /* positioning for landing text - h1 and paragraph */
 .landing-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-width: 50%;
+    max-width: 80%;
 }
 
 .line-break {
@@ -298,6 +298,7 @@ h2 {
 .landing-intro {
     flex: 1;
     /* border: 1px solid black; */
+    /* justify-content: center; */
 }
 
 @media (max-width: 1200px) {
@@ -349,6 +350,10 @@ h2 {
     .nav-link {
         margin: 0 0 0 30px;
         font-size: 20px;
+    }
+
+    .landing-intro {
+        align-items: center;
     }
 }
 
@@ -498,4 +503,9 @@ h3 {
 
 .contact-cta {
     width: 100%;
+}
+
+.landing-intro{
+    display: flex;
+    flex-direction: column;
 }
