@@ -177,11 +177,12 @@ h2 {
     font-weight: bold;
     color: #7A5E40;
     font-family: 'PT Serif', serif;
-}
-
-.why-bliss-content h2 {
     text-align: center;
 }
+
+/* .why-bliss-content h2 {
+    text-align: center;
+} */
 
 .h2-line-break {
     margin: 20px auto 35px;
