@@ -497,7 +497,7 @@ h3 {
     margin: 60px auto 0;
 }
 
-.logo a{
+.logo a {
     text-decoration: none;
     color: #7A5E40;
 }
@@ -506,7 +506,7 @@ h3 {
     width: 100%;
 }
 
-.landing-intro{
+.landing-intro {
     display: flex;
     flex-direction: column;
 }
@@ -519,10 +519,21 @@ h3 {
 
 .exercise-card {
     border: 1px solid black;
+    border-radius: 45px;
+    overflow: hidden;
+
 }
 
-@media (max-width: 768px){
-    .exercises-container{
+.exercise-card img {
+    width: 100%;
+    height: auto;
+
+}
+
+.exercise-card-paragraph {}
+
+@media (max-width: 768px) {
+    .exercises-container {
         flex-direction: column;
     }
 }
