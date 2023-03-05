@@ -521,7 +521,7 @@ h3 {
     border: 1px solid black;
 }
 
-@media (max-width: 575px){
+@media (max-width: 768px){
     .exercises-container{
         flex-direction: column;
     }
