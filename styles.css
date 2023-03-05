@@ -510,3 +510,19 @@ h3 {
     display: flex;
     flex-direction: column;
 }
+
+.exercises-container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.exercise-card {
+    border: 1px solid black;
+}
+
+@media (max-width: 575px){
+    .exercises-container{
+        flex-direction: column;
+    }
+}
