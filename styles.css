@@ -526,8 +526,9 @@ h3 {
 
 .exercise-card img {
     width: 100%;
-    height: auto;
+    /* height: auto; */
     max-height: 50%;
+    object-fit: cover;
 
 }
 
