@@ -518,11 +518,12 @@ h3 {
 }
 
 .exercise-card {
-    border: 1px solid black;
-    border-radius: 45px;
+    /* border: 1px solid black; */
+    border-radius: 20px;
     overflow: hidden;
     flex: 1 1 350px;
-
+    box-shadow: 3px 3px 8px 2px rgba(0, 0, 0, 0.15);
+    background-color: #F7E5D1;
 }
 
 .exercise-card img {
