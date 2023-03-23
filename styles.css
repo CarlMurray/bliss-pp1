@@ -522,9 +522,15 @@ h3 {
     border-radius: 20px;
     overflow: hidden;
     flex: 1 1;
-    box-shadow: 3px 3px 8px 2px rgba(0, 0, 0, 0.15);
+    box-shadow: 3px 3px 12px 4px rgba(0, 0, 0, 0.25);
     background-color: #F7E5D1;
     position: relative;
+    transition: transform 0.3s ease;
+}
+
+.exercise-card:hover {
+    transform: scale(1.03);
+
 }
 
 .exercise-card img {
