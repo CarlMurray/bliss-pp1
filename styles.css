@@ -555,6 +555,12 @@ h3 {
 
 }
 
+@media (max-width: 1024px){
+    .exercise-card-paragraph {
+        font-size: 18px;
+    }
+}
+
 @media (max-width: 768px) {
     .exercises-container {
         flex-direction: column;
