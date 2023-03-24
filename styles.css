@@ -581,3 +581,17 @@ h3 {
     min-width: 100%;
     aspect-ratio: 16/9;;
 }
+
+.exercise-back-btn {
+    text-decoration: underline;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    margin: 30px 0;
+    display: block;
+    color: #7A5E40;
+    font-size: 18px;
+}
+
+.exercise-content {
+    margin: 0;
+}
