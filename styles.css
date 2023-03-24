@@ -579,7 +579,8 @@ h3 {
 
 .exercise-video {
     min-width: 100%;
-    aspect-ratio: 16/9;;
+    aspect-ratio: 16/9;
+    margin-bottom: 10px;
 }
 
 .exercise-back-btn {
