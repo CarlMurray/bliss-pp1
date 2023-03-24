@@ -583,7 +583,7 @@ h3 {
 }
 
 .exercise-back-btn {
-    text-decoration: underline;
+    text-decoration: none;
     font-family: 'PT Sans', sans-serif;
     font-weight: bold;
     margin: 30px 0;
