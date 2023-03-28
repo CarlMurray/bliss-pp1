@@ -360,6 +360,10 @@ h2 {
     .landing-intro {
         align-items: center;
     }
+
+    .landing-text {
+        max-width: 90%;
+    }
 }
 
 @media (max-width: 768px) {
@@ -433,7 +437,7 @@ h2 {
 
     .newsletter-container .landing-paragraph {
 
-        width: 100%;
+        width: 90%;
     }
 
     .newsletter-form {
