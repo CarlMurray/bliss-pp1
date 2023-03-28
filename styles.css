@@ -271,6 +271,7 @@ h2 {
 .newsletter-cta {
     width: 105px;
     margin-left: 10px;
+    -webkit-appearance: none;
 }
 
 
@@ -539,6 +540,8 @@ h3 {
 
 .contact-cta {
     width: 100%;
+    -webkit-appearance: none;
+
 }
 
 .landing-intro {
