@@ -55,6 +55,13 @@ header {
     font-size: 24px;
 }
 
+.active-page {
+    text-decoration: underline;
+    text-decoration-color: #7A5E40;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 10px;
+}
+
 /* remove nav link text decoration  */
 nav a {
     text-decoration: none;
