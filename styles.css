@@ -452,6 +452,17 @@ h2 {
 
 }
 
+@media (max-width: 375px) {
+    .nav-link {
+        margin: 4px;
+        font-size: 12px;
+    }
+
+    .logo {
+        font-size: 18px;
+    }
+}
+
 
 .contact-form-container {
     margin-top: 20px;
