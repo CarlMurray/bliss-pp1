@@ -385,15 +385,12 @@ h2 {
         font-size: 24px;
     }
 
-    .landing-cta-wrapper {
+    /* .landing-cta-wrapper {
         flex-direction: column;
         align-items: center;
 
-    }
+    } */
 
-    .learn-more {
-        margin-left: 0;
-    }
 
     .why-bliss-card {
         background-color: #F7E5D1;
@@ -436,7 +433,7 @@ h2 {
 
     .newsletter-container .landing-paragraph {
 
-        width: 90%;
+        width: 100%;
     }
 
     .newsletter-form {
@@ -450,6 +447,18 @@ h2 {
         margin-bottom: 10px;
     }
 
+}
+
+@media (max-width: 625px) {
+
+    .landing-cta-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .learn-more {
+        margin-left: 0;
+    }
 }
 
 @media (max-width: 375px) {
@@ -576,7 +585,7 @@ h3 {
 
 }
 
-@media (max-width: 1024px){
+@media (max-width: 1024px) {
     .exercise-card-paragraph {
         font-size: 18px;
     }
