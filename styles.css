@@ -623,7 +623,7 @@ h3 {
     font-family: 'PT Sans', sans-serif;
     font-weight: bold;
     margin: 30px 0;
-    display: block;
+    display: inline-block;
     color: #7A5E40;
     font-size: 18px;
 }
