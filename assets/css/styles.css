@@ -145,8 +145,7 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-
-
+    cursor: pointer;
 }
 
 .secondary-cta {
@@ -164,6 +163,7 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 .get-started {
