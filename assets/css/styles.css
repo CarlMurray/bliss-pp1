@@ -131,7 +131,7 @@ h1 {
 
 
 .primary-cta {
-    background-color: #FF754E;
+    background-color: #FF5F33;
     color: white;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
     border-radius: 22.5px;
@@ -139,7 +139,7 @@ h1 {
     text-align: center;
     text-decoration: none;
     font-family: 'PT Sans', sans-serif;
-    font-size: 16px;
+    font-size: 19px;
     font-weight: bold;
     border: none;
     display: flex;
@@ -159,7 +159,7 @@ h1 {
     text-align: center;
     text-decoration: none;
     font-family: 'PT Sans', sans-serif;
-    font-size: 16px;
+    font-size: 19px;
     font-weight: bold;
     display: flex;
     align-items: center;
