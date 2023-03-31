@@ -464,6 +464,10 @@ h2 {
         margin-bottom: 10px;
     }
 
+    .newsletter-cta {
+        margin: 0;
+    }
+
 }
 
 @media (max-width: 625px) {
