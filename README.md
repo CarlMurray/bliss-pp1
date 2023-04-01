@@ -17,7 +17,8 @@
 
 ## Bugs
 
-- During development, the site was tested on an iPhone XS Max to check responsiveness. It was noted that the Newletter Subscribe CTA and Contact Form CTA were not displaying the correct styling compared to the Chrome Dev Tools Inpector, and did not have the correct border radius. After further experimentation and testing, a solution was found on Stack Overflow (https://stackoverflow.com/questions/20640182/iphone-overriding-all-of-my-styles-on-an-inputtype-submit). The cause of the "bug" relates to how Safari on an iPhone renders <input type="submit"> and was fixed by adding "-webkit-appearance:none;" to the element's CSS rule. 
+- During development, the site was tested on an iPhone XS Max to check responsiveness. It was noted that the Newletter Subscribe CTA and Contact Form CTA were not displaying the correct styling compared to the Chrome Dev Tools Inpector, and did not have the correct border radius. After further experimentation and testing, a solution was found on Stack Overflow (https://stackoverflow.com/questions/20640182/iphone-overriding-all-of-my-styles-on-an-inputtype-submit). The cause of the "bug" relates to how Safari on an iPhone renders `<input type="submit">` and was fixed by adding "-webkit-appearance:none;" to the element's CSS rule. 
+- As the site was tested on different browsers and devices, it was noted that the dotted `<hr>` element joining content cards was appearing as squares rather than circular dots on iOS browsers. Unfortunately there is currently no natively supported solution for this problem so it was left as is, with the intention of replacing the dots with an SVG in future. (https://stackoverflow.com/questions/11280676/how-to-create-dotted-border-with-round-dots-in-webkit-browsers)
 
 # Credits
 
