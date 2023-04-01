@@ -24,6 +24,12 @@ body {
     width: min(80%, 1440px);
     margin: auto;
     /* max-width: 1500px; */
+    min-height: 100vh;
+    position: relative;
+}
+
+.content-wrap {
+    padding-bottom: 150px;
 }
 
 header {
@@ -307,6 +313,9 @@ h2 {
     align-items: center;
     justify-content: center;
     margin-top: 50px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
 }
 
 .landing-graphic {
