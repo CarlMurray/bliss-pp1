@@ -78,7 +78,7 @@ nav a {
 /* landing content formatting  */
 main {
     /* display: flex; */
-    margin: 125px 0;
+    margin: 125px 0 75px 0;
     justify-content: space-between;
     /* border: 1px solid black; */
 
