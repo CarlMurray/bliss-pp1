@@ -24,6 +24,7 @@ I used the following technologies, platforms and support in building my project:
 - Google Fonts was used for all fonts on the site
 - Storyset.com and Unsplash were the sources of all imagery/illustrations
 - FontAwesome was used for the social media icons which then had additional styling applied to them
+- Favicon Generator (favicon.io) was used to generate the favicon used
 - The site is hosted on AWS Amplify
 - Custom domain registered with NameSilo, with a specific subdomain for this project (https://bliss.carlmurray.design)
 
@@ -59,8 +60,7 @@ Debugging and troubleshooting were done constantly throughout development, howev
 - https://unsplash.com/photos/dOhJtfXJZfw
 - https://unsplash.com/photos/G-JJy-Yv_dA
 
-
-## Illustrations:
+### Illustrations:
 - https://storyset.com/illustration/stress/pana
 - https://storyset.com/illustration/yoga-practice/pana
 - https://storyset.com/illustration/meditation/rafiki
@@ -70,3 +70,6 @@ Debugging and troubleshooting were done constantly throughout development, howev
 - https://storyset.com/illustration/team-spirit/pana
 - https://storyset.com/illustration/high-five/pana
 - https://storyset.com/illustration/letter/bro
+
+### Favicon
+- Favicon Generator (favicon.io)
