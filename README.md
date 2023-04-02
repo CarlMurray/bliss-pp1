@@ -7,6 +7,12 @@ The background of the project is based on the growing interest in holistic healt
 
 The key goals of the site include providing a user-friendly platform that makes it easy for individuals to access quality content, sharing information about the benefits of these practices, and promoting mental health and wellbeing. The target audience for the site is anyone who is interested in mindfulness, meditation, and yoga practices, regardless of their experience level. The value provided to users of the site is access to quality content that can help them develop healthy habits, reduce stress, and improve their overall wellbeing.
 
+# Design
+- To guide the development process, wireframes and mockups were designed in Figma. These early designs provided a clear direction for the project, although the final build may differ slightly from the initial designs as various iterations were explored throughout development. 
+- A muted colour palette was chosen to represent the site's values of calmness and peace, while creating an atmosphere of "bliss" for users.
+
+![Alt text](/assets/img/readme-img/figma-screens.png "Figma screens")
+
 # Features
 
 ## Navigation Bar
