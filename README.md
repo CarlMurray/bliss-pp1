@@ -9,9 +9,11 @@ The key goals of the site include providing a user-friendly platform that makes 
 
 # Design
 - To guide the development process, wireframes and mockups were designed in Figma. These early designs provided a clear direction for the project, although the final build may differ slightly from the initial designs as various iterations were explored throughout development. 
-- A muted colour palette was chosen to represent the site's values of calmness and peace, while creating an atmosphere of "bliss" for users.
+- A muted colour palette was chosen to represent the site's values of calmness and peace, while creating an atmosphere of "bliss" for users. Coolors was used to generate the presentation image of the colour palette. (https://coolors.co/ffffff-fae5ce-f7e5d1-fcd3a3-f5cb82-e3b66a-7a5e40-3b3b3b-ff5f33)
 
 ![Alt text](/assets/img/readme-img/figma-screens.png "Figma screens")
+
+![Alt text](/assets/img/readme-img/colour-palette.png "Colour palette")
 
 # Features
 
@@ -128,3 +130,7 @@ Debugging and troubleshooting were done constantly throughout development, howev
 
 ### Favicon
 - Favicon Generator (favicon.io)
+
+### Other
+- Colour palette presentation image: https://coolors.co/ffffff-fae5ce-f7e5d1-fcd3a3-f5cb82-e3b66a-7a5e40-3b3b3b-ff5f33
+- Social icons: Font Awesome
