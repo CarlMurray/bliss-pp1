@@ -66,6 +66,9 @@ The key goals of the site include providing a user-friendly platform that makes 
 ## Footer
 - Located in the footer section, users can easily find social media links to the site's official Instagram, Facebook, and Twitter pages. This convenient feature not only allows users to stay up-to-date with the latest news and updates from the site, but also enables them to engage with other like-minded individuals who share a common interest in mindfulness, meditation, and yoga practices.
 
+## Responsiveness
+- The site was designed to be responsive and function on a range of screen sizes from 320px wide and above.
+
 # Technologies Used
 I used the following technologies, platforms and support in building my project:
 - Wireframes and mockups were designed in Figma
