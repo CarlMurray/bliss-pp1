@@ -27,19 +27,19 @@ The key goals of the site include providing a user-friendly platform that makes 
 - The active page a user is on is visually highlighted to help orient the user as they navigate the site.
 
 ## Landing Content
-- The landing page shows a visual illustration of a person in a yoga pose along with the large headline and a short paragraph of desriptive text - these elements immediately communicate the intent of the site.
+- The landing page shows a visual illustration of a person in a yoga pose along with the large headline and a short paragraph of descriptive text - these elements immediately communicate the intent of the site.
 - There are two CTAs on the landing page - the primary CTA ("Get started") links to the "Exercises" page and enables users to quickly engage with the site's content. The secondary CTA ("Learn more") links to the "About" page so users can read more about the site's purpose and intent.
 
 ## Homepage
-- On the Homepage, users are greeted with three concise paragraphs of text that are accompanied by engaging illustrations. These elements work in tandem to effectively communicate the value of the site to users, providing them with a clear understanding of the benefits that can be gained from utilizing the resources available. 
+- On the Homepage, users are greeted with three concise paragraphs of text that are accompanied by engaging illustrations. These elements work in tandem to effectively communicate the value of the site to users, providing them with a clear understanding of the benefits that can be gained from utilising the resources available. 
 - Additionally, located at the end of the Homepage, a prominent CTA enables users to seamlessly transition from the Homepage to the Exercises page, where they can begin exploring the available content in more detail.
 
 ![Alt text](/assets/img/readme-img/home-page.png "Home page")
 
 ## Exercises
 - The site features an Exercises page which is where the main content of the site resides.
-- To help users easily navigate through the available resources, the content is thoughtfully categorized by exercise type. To further enhance the user experience, a compelling combination of imagery and headlines is used to effectively communicate the theme of each video. This not only creates an aesthetically pleasing and visually engaging website but also helps users to quickly identify the content that is most relevant to their individual needs and interests.
-- Located at the bottom of the page, there is a user-friendly Newsletter form that encourages users to subscribe for notifications about new content, once they have explored the existing site offerings. This feature enables users to stay up-to-date with the latest mindfulness, meditation and yoga resources available on the site, making it easier for them to maintain their healthy habits and continue to prioritize their wellbeing.
+- To help users easily navigate through the available resources, the content is thoughtfully categorised by exercise type. To further enhance the user experience, a compelling combination of imagery and headlines is used to effectively communicate the theme of each video. This not only creates an aesthetically pleasing and visually engaging website but also helps users to quickly identify the content that is most relevant to their individual needs and interests.
+- Located at the bottom of the page, there is a user-friendly Newsletter form that encourages users to subscribe for notifications about new content, once they have explored the existing site offerings. This feature enables users to stay up-to-date with the latest mindfulness, meditation and yoga resources available on the site, making it easier for them to maintain their healthy habits and continue to prioritise their wellbeing.
 - The Newsletter form uses validation to ensure an email address is entered.
 - Once submitted, users receive clear and informative feedback, and are directed to a Thank You page that features a prominent CTA designed to encourage them to continue exploring the site's content on the Exercises page.
 
@@ -75,7 +75,7 @@ I used the following technologies, platforms and support in building my project:
 - Wireframes and mockups were designed in Figma
 - The website is built with HTML/CSS only.
 - The Code Institute modules/lessons aided my learning and many of the concepts learned were applied in this project
-- Although not part of the Code Institue curriculum, I used various online resources to learn CSS Flexbox which plays an intrumental role in the styling of the website.
+- Although not part of the Code Institute curriculum, I used various online resources to learn CSS Flexbox which plays an instrumental role in the styling of the website.
 - Stack Overflow was used for troubleshooting and debugging throughout the project, as referenced.
 - MacOS VoiceOver was used for accessibility testing.
 - Git was used for version control
@@ -90,11 +90,11 @@ I used the following technologies, platforms and support in building my project:
 # Testing
 - Responsiveness was tested with Chrome Dev Tools and by testing on various devices (mobile, tablet, laptop, desktop). Am I Responsive was also used to test responsiveness.
 - All HTML files were passed through the W3C validator with no errors.
-- The CSS stylesheet wass passed through the W3C validator with no errors.
+- The CSS stylesheet was passed through the W3C validator with no errors.
 - W3C Spell Check Validator was used to check for grammatical errors.
 - The website was tested on major browsers including Chrome, Safari, Firefox and Edge.
 - All user flows were tested in depth including navigating through content, clicking CTAs and links, consuming content, video playback and form submission.
-- All forms were tested to ensure validation was present and that forms could be sumbitted without error
+- All forms were tested to ensure validation was present and that forms could be submitted without error
 - Lighthouse was used to test for Performance, Accessibility, Best Practices and SEO and adjustments were made to improve test results. Example of Home page test results here: https://pagespeed.web.dev/analysis/https-bliss-carlmurray-design/cyx73ltgkz?form_factor=desktop
 - Accessibility testing was conducted by navigating the site and performing tasks using keyboard navigation and a screen reader (MacOS VoiceOver)
 
@@ -104,12 +104,12 @@ I used the following technologies, platforms and support in building my project:
 
 # Bugs/Issues
 Debugging and troubleshooting were done constantly throughout development, however there were a number of noteworthy issues:
-- During development, the site was tested on an iPhone XS Max to check responsiveness. It was noted that the Newletter Subscribe CTA and Contact Form CTA were not displaying the correct styling compared to the Chrome Dev Tools Inpector, and did not have the correct border radius. After further experimentation and testing, a solution was found on Stack Overflow (https://stackoverflow.com/questions/20640182/iphone-overriding-all-of-my-styles-on-an-inputtype-submit). The cause of the "bug" relates to how Safari on an iPhone renders `<input type="submit">` and was fixed by adding "-webkit-appearance:none;" to the element's CSS rule. 
+- During development, the site was tested on an iPhone XS Max to check responsiveness. It was noted that the Newsletter Subscribe CTA and Contact Form CTA were not displaying the correct styling compared to the Chrome DevTools Inspector, and did not have the correct border radius. After further experimentation and testing, a solution was found on Stack Overflow (https://stackoverflow.com/questions/20640182/iphone-overriding-all-of-my-styles-on-an-inputtype-submit). The cause of the "bug" relates to how Safari on an iPhone renders `<input type="submit">` and was fixed by adding "-webkit-appearance:none;" to the element's CSS rule. 
 - When testing the site on Firefox, it was observed that images in the main content cards were significantly smaller in size than intended. This was fixed by changing the `width` property of the `img` to `max-width`.
 - As the site was tested on different browsers and devices, it was noted that the dotted `<hr>` element joining content cards was appearing as square/rectangular dashes rather than circular dots on iOS browsers. Unfortunately there is currently no natively supported solution for this problem so it was left as is, with the intention of replacing the dots with an SVG in future. (https://stackoverflow.com/questions/11280676/how-to-create-dotted-border-with-round-dots-in-webkit-browsers)
 - When testing on different browsers, it was observed that the font weight of the Navigation Links appeared heavier in Safari than in Chrome and as intended. It was found that this is due to the rendering engine of Safari and there is no solution for this "issue". Adding `-webkit-font-smoothing: antialiased;` made a minor visual improvement.
 - The site was tested on a 42" LG Smart TV experimentally. The native LG web browser does not render certain elements and styles correctly and browser support is limited. Designing for smart TVs was outside the scope of this project but future revisions may address this functionality.
-- During deployment, an attempt was made to setup CloudFlare on the site, however this was unsuccessful. It is believed that there were issues with DNS records and Nameservers, along with lengthy DNS propogation that prevented this from functioning as intended and as such the initiative was abandoned and deemed unecessary for this project.
+- During deployment, an attempt was made to set up CloudFlare on the site, however this was unsuccessful. It is believed that there were issues with DNS records and Nameservers, along with lengthy DNS propagation that prevented this from functioning as intended and as such the initiative was abandoned and deemed unnecessary for this project.
 
 # Deployment
 - A DNS record for a subdomain of my portfolio, carlmurray.design, was created for this project.
@@ -158,6 +158,6 @@ Steps for deployment on AWS:
 
 ### Educational resources
 - MDN Documentation
-- W3C Schools
+- W3Schools
 - developedbyed (YouTube)
 - Flexbox Zombies
