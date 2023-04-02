@@ -6,6 +6,18 @@
     -webkit-font-smoothing: antialiased; /* remove webkit styles */
 }
 
+:root {
+    --background-color: #FAE5CE; /* define primary color variable */
+    --highlight-color: #ff5f33;
+    --font-color: #3b3b3b;
+    --card-color: #f7e5d1;
+    --headline-color: #7a5e40;
+    --light-beige: #fcd3a3;
+    --light-ochre: #f5cb82;
+    --medium-ochre: #e3b66a;
+    --input-field: #fff; 
+  }  
+
 html {
     scroll-behavior: smooth;
 }
@@ -17,7 +29,7 @@ header {
 
 /* Background colour  */
 body {
-    background-color: #FAE5CE;
+    background-color: var(--background-color);
 }
 
 /* div container styles  */
@@ -38,7 +50,7 @@ header {
     align-items: center;
     font-family: 'PT Serif', serif;
     font-weight: bold;
-    border-bottom: 1px solid #7A5E40;
+    border-bottom: 1px solid var(--headline-color);
 }
 
 /* bliss logo top left nav bar  */
@@ -46,7 +58,7 @@ header {
     font-size: 48px;
     font-weight: 700;
     font-style: italic;
-    color: #7A5E40;
+    color: var(--headline-color);
 }
 
 /* style for nav links list  */
@@ -64,7 +76,7 @@ header {
 /* styles for active page highlight in nav bar */
 .active-page {
     text-decoration: underline;
-    text-decoration-color: #7A5E40;
+    text-decoration-color: var(--headline-color);
     text-decoration-thickness: 2px;
     text-underline-offset: 10px;
 }
@@ -72,7 +84,7 @@ header {
 /* remove nav link text decoration  */
 nav a {
     text-decoration: none;
-    color: #7A5E40;
+    color: var(--headline-color);
 }
 
 /* landing content formatting  */
@@ -85,7 +97,7 @@ h1 {
     font-size: 48px;
     font-style: italic;
     font-weight: bold;
-    color: #7A5E40;
+    color: var(--headline-color);
     font-family: 'PT Serif', serif;
 }
 
@@ -123,7 +135,7 @@ h1 {
 
 /* primary CTA button */
 .primary-cta {
-    background-color: #FF5F33;
+    background-color: var(--highlight-color);
     color: white;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
     border-radius: 22.5px;
@@ -147,9 +159,9 @@ h1 {
 
 /* secondary CTA button */
 .secondary-cta {
-    background-color: #FAE5CE;
-    color: #7A5E40;
-    border: 1px solid #7A5E40;
+    background-color: var(--background-color);
+    color: var(--headline-color);
+    border: 1px solid var(--headline-color);
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
     border-radius: 22.5px;
     height: 45px;
@@ -196,7 +208,7 @@ h2 {
     font-size: 40px;
     font-style: italic;
     font-weight: bold;
-    color: #7A5E40;
+    color: var(--headline-color);
     font-family: 'PT Serif', serif;
     text-align: center;
 }
@@ -208,7 +220,7 @@ h2 {
 
 /* card for main content on home/about */
 .why-bliss-card {
-    background-color: #F7E5D1;
+    background-color: var(--card-color);
     height: 525px;
     border-radius: 45px;
     border: none;
@@ -216,7 +228,7 @@ h2 {
     display: flex;
     font-family: 'PT Sans', sans-serif;
     font-size: 24px;
-    color: #3B3B3B;
+    color: var(--font-color);
     align-items: center;
     justify-content: space-evenly;
     padding: 0 50px;
@@ -234,7 +246,7 @@ h2 {
 .dotted-line {
     width: 170px;
     border: none;
-    border-top: 5px dotted #7A5E40;
+    border-top: 5px dotted var(--headline-color);
     transform: rotate(90deg);
     margin: 85px auto; /* controls vertical spacing between cards */
 }
@@ -261,7 +273,7 @@ h2 {
 /* styles for text input fields */
 .text-field {
     color: #707070;
-    background-color: white;
+    background-color: var(--input-field);
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
     border-radius: 22.5px;
     height: 45px;
@@ -296,7 +308,7 @@ h2 {
 
 
 .page-footer {
-    border-top: 1px solid #7A5E40;
+    border-top: 1px solid var(--headline-color);
     height: 100px; /* controls footer height */
     display: flex;
     align-items: center;
@@ -358,7 +370,7 @@ h3 {
     font-size: 32px;
     font-style: italic;
     font-weight: bold;
-    color: #7A5E40;
+    color: var(--headline-color);
     font-family: 'PT Serif', serif;
     text-align: center;
     margin: 60px auto 0;
@@ -367,14 +379,13 @@ h3 {
 /* style for top left nav logo */
 .logo a {
     text-decoration: none;
-    color: #7A5E40;
+    color: var(--headline-color);
 }
 
 /* cta style for the contact form */
 .contact-cta {
     width: 100%;
     -webkit-appearance: none;
-
 }
 
 .landing-intro {
@@ -395,7 +406,7 @@ h3 {
     overflow: hidden;
     flex: 1 1;
     box-shadow: 3px 3px 12px 4px rgba(0, 0, 0, 0.25);
-    background-color: #F7E5D1;
+    background-color: var(--card-color);
     position: relative;
     transition: transform 0.3s ease;
 }
@@ -453,7 +464,7 @@ h3 {
     font-weight: bold;
     margin: 30px 0;
     display: inline-block;
-    color: #7A5E40;
+    color: var(--headline-color);
     font-size: 18px;
 }
 
@@ -581,7 +592,7 @@ h3 {
 
     .dotted-line {
         width: 100px;
-        border-top: 5px dotted #7A5E40;
+        border-top: 5px dotted var(--headline-color);
         transform: rotate(90deg);
         margin: 50px auto;
 
