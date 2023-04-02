@@ -323,163 +323,6 @@ h2 {
     flex: 1;
 }
 
-@media (max-width: 1200px) {
-    h1 {
-        font-size: 38px;
-    }
-
-    .landing-paragraph {
-        font-size: 16px;
-    }
-}
-
-@media (max-width: 1024px) {
-    .why-bliss-card {
-        font-size: 18px;
-    }
-}
-
-@media (max-width: 955px) {
-
-    body {
-        text-align: center;
-    }
-
-    .intro {
-        flex-direction: column;
-    }
-
-    .line-break {
-        margin: 20px auto 25px;
-    }
-
-    .landing-cta-wrapper {
-        justify-content: center;
-    }
-
-    main {
-        margin: 75px 0;
-    }
-
-    .landing-graphic img {
-        width: 70%;
-        margin-top: 40px;
-
-    }
-
-    .nav-link {
-        margin: 0 0 0 30px;
-        font-size: 20px;
-    }
-
-    .landing-intro {
-        align-items: center;
-    }
-
-    .landing-text {
-        max-width: 90%;
-    }
-}
-
-@media (max-width: 768px) {
-
-    main {
-        margin: 50px 0;
-    }
-
-    .landing-graphic img {
-        width: 70%;
-        margin-top: 40px;
-
-    }
-
-    .nav-link {
-        margin: 10px;
-        font-size: 14px;
-    }
-
-    .logo {
-        font-size: 24px;
-    }
-
-    .why-bliss-card {
-        height: auto;
-        border-radius: 20px;
-        box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.25);
-        flex-direction: column;
-        font-size: 14px;
-        padding: 15px;
-    }
-
-    .why-bliss-card img {
-        width: 50%;
-        margin-bottom: 10px;
-    }
-
-    .why-bliss-card:nth-of-type(2) {
-        flex-direction: column-reverse;
-    }
-
-    .dotted-line {
-        width: 100px;
-        border-top: 5px dotted #7A5E40;
-        transform: rotate(90deg);
-        margin: 50px auto;
-
-    }
-
-    h2 {
-        font-size: 24px;
-    }
-
-    .newsletter-container .landing-paragraph {
-
-        width: 90%;
-    }
-
-    .newsletter-form {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .newsletter-email {
-        width: 100%;
-        max-width: 325px;
-        margin-bottom: 10px;
-    }
-
-    .newsletter-cta {
-        margin: 0;
-    }
-
-}
-
-/* stacks landing content vertically on smaller screens */
-@media (max-width: 625px) {
-
-    .landing-cta-wrapper {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .learn-more {
-        margin-left: 0; /* removes left margin from cta when stacked on smaller screens */
-    }
-}
-
-/* resize nav elements on smaller screens */
-@media (max-width: 375px) {
-    .nav-link {
-        margin: 4px;
-        font-size: 12px;
-    }
-
-    .logo {
-        font-size: 18px;
-    }
-}
-
-
 .contact-form-container {
     margin-top: 20px;
 }
@@ -495,13 +338,6 @@ h2 {
 .contact-name-email {
     flex: 1; /* makes name and email contact form inputs equal width */
 }
-
-@media only screen and (max-width: 768px) {
-    .contact-name-email {
-        flex-basis: 100%; /* make inputs full width at 768px and below */
-    }
-}
-
 
 .contact-paragraph {
     width: 100%;
@@ -598,18 +434,6 @@ h3 {
 
 }
 
-@media (max-width: 1024px) {
-    .exercise-card-paragraph {
-        font-size: 18px;
-    }
-}
-
-@media (max-width: 768px) {
-    .exercises-container {
-        flex-direction: column;
-    }
-}
-
 /* target top group of exercises and provide margin below for spacing */
 .exercises-group:nth-of-type(2) {
     margin-bottom: 60px;
@@ -646,4 +470,180 @@ h3 {
     font-family: 'PT Sans', sans-serif;
     font-size: 18px;
     padding: 10px 15px;
+}
+
+/* MEDIA QUERIES */
+
+/* 1200px */
+@media (max-width: 1200px) {
+    h1 {
+        font-size: 38px;
+    }
+
+    .landing-paragraph {
+        font-size: 16px;
+    }
+}
+
+/* 1024px */
+@media (max-width: 1024px) {
+    .why-bliss-card {
+        font-size: 18px;
+    }
+
+    .exercise-card-paragraph {
+        font-size: 18px;
+    }
+}
+
+/* 955 px */
+@media (max-width: 955px) {
+
+    body {
+        text-align: center;
+    }
+
+    .intro {
+        flex-direction: column;
+    }
+
+    .line-break {
+        margin: 20px auto 25px;
+    }
+
+    .landing-cta-wrapper {
+        justify-content: center;
+    }
+
+    main {
+        margin: 75px 0;
+    }
+
+    .landing-graphic img {
+        width: 70%;
+        margin-top: 40px;
+
+    }
+
+    .nav-link {
+        margin: 0 0 0 30px;
+        font-size: 20px;
+    }
+
+    .landing-intro {
+        align-items: center;
+    }
+
+    .landing-text {
+        max-width: 90%;
+    }
+}
+
+/* 768px */
+@media (max-width: 768px) {
+
+    main {
+        margin: 50px 0;
+    }
+
+    .landing-graphic img {
+        width: 70%;
+        margin-top: 40px;
+
+    }
+
+    .nav-link {
+        margin: 10px;
+        font-size: 14px;
+    }
+
+    .logo {
+        font-size: 24px;
+    }
+
+    .why-bliss-card {
+        height: auto;
+        border-radius: 20px;
+        box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.25);
+        flex-direction: column;
+        font-size: 14px;
+        padding: 15px;
+    }
+
+    .why-bliss-card img {
+        width: 50%;
+        margin-bottom: 10px;
+    }
+
+    .why-bliss-card:nth-of-type(2) {
+        flex-direction: column-reverse;
+    }
+
+    .dotted-line {
+        width: 100px;
+        border-top: 5px dotted #7A5E40;
+        transform: rotate(90deg);
+        margin: 50px auto;
+
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    .newsletter-container .landing-paragraph {
+
+        width: 90%;
+    }
+
+    .newsletter-form {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .newsletter-email {
+        width: 100%;
+        max-width: 325px;
+        margin-bottom: 10px;
+    }
+
+    .newsletter-cta {
+        margin: 0;
+    }
+
+    .exercises-container {
+        flex-direction: column;
+    }
+
+    .contact-name-email {
+        flex-basis: 100%; /* make inputs full width at 768px and below */
+    }
+}
+
+/* 625px */
+@media (max-width: 625px) {
+    
+    /* stacks landing content vertically on smaller screens */
+    .landing-cta-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .learn-more {
+        margin-left: 0; /* removes left margin from cta when stacked on smaller screens */
+    }
+}
+
+/* 375px */
+@media (max-width: 375px) {
+    
+    /* resize nav elements on smaller screens */
+    .nav-link {
+        margin: 4px;
+        font-size: 12px;
+    }
+
+    .logo {
+        font-size: 18px;
+    }
 }
