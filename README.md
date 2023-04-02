@@ -154,3 +154,9 @@ Steps for deployment on AWS:
 ### Other
 - Colour palette presentation image: https://coolors.co/ffffff-fae5ce-f7e5d1-fcd3a3-f5cb82-e3b66a-7a5e40-3b3b3b-ff5f33
 - Social icons: Font Awesome
+
+### Educational resources
+- MDN Documentation
+- W3C Schools
+- developedbyed (YouTube)
+- Flexbox Zombies
