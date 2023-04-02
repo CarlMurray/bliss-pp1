@@ -86,6 +86,7 @@ I used the following technologies, platforms and support in building my project:
 - Favicon Generator (favicon.io) was used to generate the favicon used
 - The site is hosted on AWS Amplify
 - Custom domain registered with NameSilo, with a specific subdomain for this project (https://bliss.carlmurray.design)
+- Google Analytics was linked to the site to track site traffic and user behaviour.
 
 # Testing
 - Responsiveness was tested with Chrome Dev Tools and by testing on various devices (mobile, tablet, laptop, desktop). Am I Responsive was also used to test responsiveness.
