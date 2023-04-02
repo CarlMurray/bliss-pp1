@@ -84,6 +84,7 @@ I used the following technologies, platforms and support in building my project:
 - Responsiveness was tested with Chrome Dev Tools and by testing on various devices (mobile, tablet, laptop, desktop). Am I Responsive was also used to test responsiveness.
 - All HTML files were passed through the W3C validator with no errors.
 - The CSS stylesheet wass passed through the W3C validator with no errors.
+- W3C Spell Check Validator was used to check for grammatical errors.
 - The website was tested on major browsers including Chrome, Safari, Firefox and Edge.
 - All user flows were tested in depth including navigating through content, clicking CTAs, consuming content, video playback and form submission.
 - Lighthouse was used to test for Performance, Accessibility, Best Practices and SEO and adjustments were made to improve test results. Example of Home page test results here: https://pagespeed.web.dev/analysis/https-bliss-carlmurray-design/cyx73ltgkz?form_factor=desktop
