@@ -1,5 +1,7 @@
 ![Alt text](/assets/img/readme-img/cover-image.png "Cover image")
 
+- __The production site is available at https://bliss.carlmurray.design OR https://main.d2k8k5ekazru51.amplifyapp.com__
+
 # Project Background 
 Bliss is a website that provides mindfulness, meditation and yoga content free of charge to users in the form of videos. The site aims to help users improve their mental and physical wellbeing by providing easy access to helpful resources that can assist them in developing and maintaining healthy habits.
 
@@ -87,12 +89,10 @@ I used the following technologies, platforms and support in building my project:
 - The CSS stylesheet wass passed through the W3C validator with no errors.
 - W3C Spell Check Validator was used to check for grammatical errors.
 - The website was tested on major browsers including Chrome, Safari, Firefox and Edge.
-- All user flows were tested in depth including navigating through content, clicking CTAs, consuming content, video playback and form submission.
+- All user flows were tested in depth including navigating through content, clicking CTAs and links, consuming content, video playback and form submission.
 - All forms were tested to ensure validation was present and that forms could be sumbitted without error
 - Lighthouse was used to test for Performance, Accessibility, Best Practices and SEO and adjustments were made to improve test results. Example of Home page test results here: https://pagespeed.web.dev/analysis/https-bliss-carlmurray-design/cyx73ltgkz?form_factor=desktop
 - Accessibility testing was conducted by navigating the site and performing tasks using keyboard navigation and a screen reader (MacOS VoiceOver)
->TODO: Screenshot of Lighthouse results
->TODO: Form testing, accessibility testing, usability testing, spell check, content testing
 
 ![Alt text](/assets/img/readme-img/html-validation.png "HTML validation (for Home page)")
 ![Alt text](/assets/img/readme-img/css-validation.png "CSS Validation")
@@ -102,10 +102,23 @@ I used the following technologies, platforms and support in building my project:
 Debugging and troubleshooting were done constantly throughout development, however there were a number of noteworthy issues:
 - During development, the site was tested on an iPhone XS Max to check responsiveness. It was noted that the Newletter Subscribe CTA and Contact Form CTA were not displaying the correct styling compared to the Chrome Dev Tools Inpector, and did not have the correct border radius. After further experimentation and testing, a solution was found on Stack Overflow (https://stackoverflow.com/questions/20640182/iphone-overriding-all-of-my-styles-on-an-inputtype-submit). The cause of the "bug" relates to how Safari on an iPhone renders `<input type="submit">` and was fixed by adding "-webkit-appearance:none;" to the element's CSS rule. 
 - When testing the site on Firefox, it was observed that images in the main content cards were significantly smaller in size than intended. This was fixed by changing the `width` property of the `img` to `max-width`.
-- As the site was tested on different browsers and devices, it was noted that the dotted `<hr>` element joining content cards was appearing as squares rather than circular dots on iOS browsers. Unfortunately there is currently no natively supported solution for this problem so it was left as is, with the intention of replacing the dots with an SVG in future. (https://stackoverflow.com/questions/11280676/how-to-create-dotted-border-with-round-dots-in-webkit-browsers)
+- As the site was tested on different browsers and devices, it was noted that the dotted `<hr>` element joining content cards was appearing as square/rectangular dashes rather than circular dots on iOS browsers. Unfortunately there is currently no natively supported solution for this problem so it was left as is, with the intention of replacing the dots with an SVG in future. (https://stackoverflow.com/questions/11280676/how-to-create-dotted-border-with-round-dots-in-webkit-browsers)
 - When testing on different browsers, it was observed that the font weight of the Navigation Links appeared heavier in Safari than in Chrome and as intended. It was found that this is due to the rendering engine of Safari and there is no solution for this "issue". Adding `-webkit-font-smoothing: antialiased;` made a minor visual improvement.
 - The site was tested on a 42" LG Smart TV experimentally. The native LG web browser does not render certain elements and styles correctly and browser support is limited. Designing for smart TVs was outside the scope of this project but future revisions may address this functionality.
 - During deployment, an attempt was made to setup CloudFlare on the site, however this was unsuccessful. It is believed that there were issues with DNS records and Nameservers, along with lengthy DNS propogation that prevented this from functioning as intended and as such the initiative was abandoned and deemed unecessary for this project.
+
+# Deployment
+- A DNS record for a subdomain of my portfolio, carlmurray.design, was created for this project.
+- The GitHub repository was connected to AWS Amplify for hosting.
+- Custom domain (https://bliss.carlmurray.design) was added with an SSL certificate on AWS Amplify.
+- __The production site is available at https://bliss.carlmurray.design OR https://main.d2k8k5ekazru51.amplifyapp.com__
+
+Steps for deployment on AWS:
+- Navigate to AWS Amplify dashboard
+- Select "New app"
+- Connect GitHub and select repository, main branch
+- Click "Save and deploy"
+- Optional: Add a custom domain through the "Domain management" tab
 
 # Credits
 
