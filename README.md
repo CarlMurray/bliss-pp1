@@ -71,6 +71,7 @@ I used the following technologies, platforms and support in building my project:
 - The Code Institute modules/lessons aided my learning and many of the concepts learned were applied in this project
 - Although not part of the Code Institue curriculum, I used various online resources to learn CSS Flexbox which plays an intrumental role in the styling of the website.
 - Stack Overflow was used for troubleshooting and debugging throughout the project, as referenced.
+- MacOS VoiceOver was used for accessibility testing.
 - Git was used for version control
 - GitHub was used for the project repository
 - Google Fonts was used for all fonts on the site
@@ -87,7 +88,9 @@ I used the following technologies, platforms and support in building my project:
 - W3C Spell Check Validator was used to check for grammatical errors.
 - The website was tested on major browsers including Chrome, Safari, Firefox and Edge.
 - All user flows were tested in depth including navigating through content, clicking CTAs, consuming content, video playback and form submission.
+- All forms were tested to ensure validation was present and that forms could be sumbitted without error
 - Lighthouse was used to test for Performance, Accessibility, Best Practices and SEO and adjustments were made to improve test results. Example of Home page test results here: https://pagespeed.web.dev/analysis/https-bliss-carlmurray-design/cyx73ltgkz?form_factor=desktop
+- Accessibility testing was conducted by navigating the site and performing tasks using keyboard navigation and a screen reader (MacOS VoiceOver)
 >TODO: Screenshot of Lighthouse results
 >TODO: Form testing, accessibility testing, usability testing, spell check, content testing
 
