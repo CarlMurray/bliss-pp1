@@ -1,6 +1,7 @@
 ![Alt text](/assets/img/readme-img/cover-image.png "Cover image")
-
-- __The production site is available at https://bliss.carlmurray.design OR https://main.d2k8k5ekazru51.amplifyapp.com__
+___
+### __The production site is available at https://bliss.carlmurray.design OR https://main.d2k8k5ekazru51.amplifyapp.com__
+___
 
 # Project Background 
 Bliss is a website that provides mindfulness, meditation and yoga content free of charge to users in the form of videos. The site aims to help users improve their mental and physical wellbeing by providing easy access to helpful resources that can assist them in developing and maintaining healthy habits.
