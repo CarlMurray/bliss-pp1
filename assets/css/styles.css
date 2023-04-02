@@ -233,10 +233,10 @@ h2 {
 /* decorative line joining cards */
 .dotted-line {
     width: 170px;
+    border: none;
     border-top: 5px dotted #7A5E40;
     transform: rotate(90deg);
     margin: 85px auto; /* controls vertical spacing between cards */
-
 }
 
 /* decorative line break above newsletter */
