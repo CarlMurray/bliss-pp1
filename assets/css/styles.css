@@ -223,7 +223,7 @@ h2 {
 }
 
 .why-bliss-card img {
-    width: 50%; /* width of images on card */
+    max-width: 50%; /* width of images on card */
 }
 
 .why-bliss-paragraph {
