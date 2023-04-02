@@ -1,3 +1,5 @@
+![Alt text](/assets/img/readme-img/cover-image.png "Cover image")
+
 # Project Background 
 Bliss is a website that provides mindfulness, meditation and yoga content free of charge to users in the form of videos. The site aims to help users improve their mental and physical wellbeing by providing easy access to helpful resources that can assist them in developing and maintaining healthy habits.
 
@@ -21,6 +23,8 @@ The key goals of the site include providing a user-friendly platform that makes 
 - On the Homepage, users are greeted with three concise paragraphs of text that are accompanied by engaging illustrations. These elements work in tandem to effectively communicate the value of the site to users, providing them with a clear understanding of the benefits that can be gained from utilizing the resources available. 
 - Additionally, located at the end of the Homepage, a prominent CTA enables users to seamlessly transition from the Homepage to the Exercises page, where they can begin exploring the available content in more detail.
 
+![Alt text](/assets/img/readme-img/home-page.png "Home page")
+
 ## Exercises
 - The site features an Exercises page which is where the main content of the site resides.
 - To help users easily navigate through the available resources, the content is thoughtfully categorized by exercise type. To further enhance the user experience, a compelling combination of imagery and headlines is used to effectively communicate the theme of each video. This not only creates an aesthetically pleasing and visually engaging website but also helps users to quickly identify the content that is most relevant to their individual needs and interests.
@@ -28,18 +32,26 @@ The key goals of the site include providing a user-friendly platform that makes 
 - The Newsletter form uses validation to ensure an email address is entered.
 - Once submitted, users receive clear and informative feedback, and are directed to a Thank You page that features a prominent CTA designed to encourage them to continue exploring the site's content on the Exercises page.
 
+![Alt text](/assets/img/readme-img/exercises-page.png "Exercises page")
+
 ### Exercises in detail
 - Upon clicking an Exercise card, users are seamlessly directed to a dedicated page that displays the featured video content and a succinct description. This streamlined user flow ensures that individuals can easily access the resources they need, while also providing them with the necessary context to make informed decisions about which content is most relevant to their needs. 
 - To enhance the user experience even further, a convenient Back button is prominently featured on the page, allowing users to effortlessly navigate back to the main Exercises page.
+
+![Alt text](/assets/img/readme-img/exercise-video.png "Exercise content")
 
 ## About
 - The site has an About page that describes the motivation and inspiration behind its creation, providing users with a deeper understanding of the site's purpose and mission. Here, users can learn more about the origins of the site and the driving forces that led to its establishment, helping them to connect with the content on a more personal level.
 - There are two CTAs in the landing section - the primary CTA ("Get started") links to the "Exercises" page and enables users to quickly engage with the site's content. The secondary CTA ("Learn more") scrolls down the page and brings users straight to the content so they can read more about the site's purpose and intent.
 
+![Alt text](/assets/img/readme-img/about-page.png "About page")
+
 ## Contact
 - The site features a user-friendly contact form that is both intuitive and straightforward, making it simple for individuals to submit their inquiries without being bogged down by having to enter unnecessary details. 
 - The form uses validation to ensure all input fields are complete and data is valid.
 - Once submitted, users receive clear and informative feedback, and are directed to a Thank You page that features a prominent CTA designed to encourage them to continue exploring the site's content on the Exercises page.
+
+![Alt text](/assets/img/readme-img/contact-page.png "Contact page")
 
 ## Footer
 - Located in the footer section, users can easily find social media links to the site's official Instagram, Facebook, and Twitter pages. This convenient feature not only allows users to stay up-to-date with the latest news and updates from the site, but also enables them to engage with other like-minded individuals who share a common interest in mindfulness, meditation, and yoga practices.
@@ -66,9 +78,13 @@ I used the following technologies, platforms and support in building my project:
 - The CSS stylesheet wass passed through the W3C validator with no errors.
 - The website was tested on major browsers including Chrome, Safari, Firefox and Edge.
 - All user flows were tested in depth including navigating through content, clicking CTAs, consuming content, video playback and form submission.
-- Lighthouse was used to test for Performance, Accessibility, Best Practices and SEO and adjustments were made to improve test results.
+- Lighthouse was used to test for Performance, Accessibility, Best Practices and SEO and adjustments were made to improve test results. Example of Home page test results here: https://pagespeed.web.dev/analysis/https-bliss-carlmurray-design/cyx73ltgkz?form_factor=desktop
 >TODO: Screenshot of Lighthouse results
 >TODO: Form testing, accessibility testing, usability testing, spell check, content testing
+
+![Alt text](/assets/img/readme-img/html-validation.png "HTML validation (for Home page)")
+![Alt text](/assets/img/readme-img/css-validation.png "CSS Validation")
+![Alt text](/assets/img/readme-img/lighthouse-test.png "Test results for Home page")
 
 # Bugs/Issues
 Debugging and troubleshooting were done constantly throughout development, however there were a number of noteworthy issues:
