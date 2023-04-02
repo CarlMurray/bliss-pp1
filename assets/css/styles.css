@@ -454,6 +454,7 @@ h2 {
 
 }
 
+/* stacks landing content vertically on smaller screens */
 @media (max-width: 625px) {
 
     .landing-cta-wrapper {
@@ -462,10 +463,11 @@ h2 {
     }
 
     .learn-more {
-        margin-left: 0;
+        margin-left: 0; /* removes left margin from cta when stacked on smaller screens */
     }
 }
 
+/* resize nav elements on smaller screens */
 @media (max-width: 375px) {
     .nav-link {
         margin: 4px;
@@ -482,6 +484,7 @@ h2 {
     margin-top: 20px;
 }
 
+/* flex container for contact form inputs */
 .input-container {
     display: flex;
     flex-wrap: wrap;
@@ -490,15 +493,14 @@ h2 {
 }
 
 .contact-name-email {
-    flex: 1;
+    flex: 1; /* makes name and email contact form inputs equal width */
 }
 
 @media only screen and (max-width: 768px) {
     .contact-name-email {
-        flex-basis: 100%;
+        flex-basis: 100%; /* make inputs full width at 768px and below */
     }
 }
-
 
 
 .contact-paragraph {
@@ -507,7 +509,7 @@ h2 {
     height: 250px;
 }
 
-
+/* styles for contact form textarea input */
 textarea {
     color: #707070;
     opacity: 1;
@@ -526,11 +528,13 @@ h3 {
     margin: 60px auto 0;
 }
 
+/* style for top left nav logo */
 .logo a {
     text-decoration: none;
     color: #7A5E40;
 }
 
+/* cta style for the contact form */
 .contact-cta {
     width: 100%;
     -webkit-appearance: none;
@@ -542,12 +546,14 @@ h3 {
     flex-direction: column;
 }
 
+/* container for each category of exercises */
 .exercises-container {
     display: flex;
     gap: 20px;
     justify-content: space-between;
 }
 
+/* exercise cards on exercises page */
 .exercise-card {
     border-radius: 20px;
     overflow: hidden;
@@ -559,10 +565,11 @@ h3 {
 }
 
 .exercise-card:hover {
-    transform: scale(1.03);
+    transform: scale(1.03); /* make card bigger on hover */
 
 }
 
+/* hero image for each exercise card */
 .exercise-card img {
     width: 100%;
     height: 100%;
@@ -570,6 +577,7 @@ h3 {
 
 }
 
+/* dark overlay to make text on exercise card readable */
 .card-overlay {
     position: absolute;
     bottom: 0;
@@ -580,7 +588,7 @@ h3 {
     color: #fff;
 }
 
-
+/* text inside exercise cards */
 .exercise-card-paragraph {
     margin: 0;
     font-size: 24px;
@@ -607,12 +615,14 @@ h3 {
     margin-bottom: 60px;
 }
 
+/* embedded video on exercises page */
 .exercise-video {
     min-width: 100%;
     aspect-ratio: 16/9;
     border: none;
 }
 
+/* btn to bring users back to exercises page */
 .exercise-back-btn {
     text-decoration: none;
     font-family: 'PT Sans', sans-serif;
@@ -623,12 +633,14 @@ h3 {
     font-size: 18px;
 }
 
+/* container for exercise content, video + description */
 .exercise-content {
     margin: 0;
     box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.25);
     border-radius: 0 0 10px 10px;
 }
 
+/* text description under exercise video */
 .exercise-content-description {
     border: none;
     font-family: 'PT Sans', sans-serif;
