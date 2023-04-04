@@ -99,6 +99,19 @@ I used the following technologies, platforms and support in building my project:
 - Lighthouse was used to test for Performance, Accessibility, Best Practices and SEO and adjustments were made to improve test results. Example of Home page test results here: https://pagespeed.web.dev/analysis/https-bliss-carlmurray-design/cyx73ltgkz?form_factor=desktop
 - Accessibility testing was conducted by navigating the site and performing tasks using keyboard navigation and a screen reader (MacOS VoiceOver)
 
+## Testing Process
+| Test                | Action                   | Success Criteria  |
+| -------------       |-------------             | -----|
+| Homepage loads      | Navigate to website URL  | Page loads < 3s, no errors |
+| Links            | Click on each Navigation link, CTA, button, logo, footer link, video   | Correct page is loaded/correct action performed |
+| Form validation  | Enter data into each input field, ensure only valid data is accepted | Form doesn't submit until correct data entered, error message shown |
+| Form submission | Complete each form and submit | Form successfully submits, feedback page shown |
+| Responsiveness | Resize browser window from 320px upwards | Page layout remains intact and adapts to screen size as intended |
+| Accessibility | Navigate the site with keyboard and screen reader | Tab index works in correct order, website is navigable, content/aria-labels read aloud |
+| Lighthouse | Perform Lighthouse test on each page | Score of > 89 on Performance, Accessibility, Best Practices, SEO |
+
+--------
+
 ![Alt text](/assets/img/readme-img/html-validation.png "HTML validation (for Home page)")
 ![Alt text](/assets/img/readme-img/css-validation.png "CSS Validation")
 ![Alt text](/assets/img/readme-img/lighthouse-test.png "Test results for Home page")
@@ -156,6 +169,7 @@ Steps for deployment on AWS:
 ### Other
 - Colour palette presentation image: https://coolors.co/ffffff-fae5ce-f7e5d1-fcd3a3-f5cb82-e3b66a-7a5e40-3b3b3b-ff5f33
 - Social icons: Font Awesome
+- Fonts: Google Fonts
 
 ### Educational resources
 - MDN Documentation
