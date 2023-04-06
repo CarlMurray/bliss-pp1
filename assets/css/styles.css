@@ -645,8 +645,8 @@ h3 {
     }
 }
 
-/* 375px */
-@media (max-width: 375px) {
+/* 390px */
+@media (max-width: 390px) {
     
     /* resize nav elements on smaller screens */
     .nav-link {
