@@ -85,6 +85,7 @@ Finally, there are two "Thank you" pages which provide feedback when a user subm
 
 ### Responsiveness
 - The site was designed to be responsive and function on a range of screen sizes from 320px wide and above.
+- The site content is contained within a container of the lesser of 80vw / 1440px to ensure the site is easily readable on large screen sizes.
 
 ### Future Features
 There are a number of features that would improve the User Experience that I would like to implement in the future:
@@ -111,11 +112,11 @@ I used the following technologies, platforms and support in building my project:
 - [Google Analytics](https://analytics.google.com/analytics/web/) was linked to the site to track site traffic and user behaviour.
 
 # Testing
-- Responsiveness was tested with Chrome Dev Tools and by testing on various devices (mobile, tablet, laptop, desktop). Am I Responsive was also used to test responsiveness.
-- All HTML files were passed through the W3C validator with no errors.
-- The CSS stylesheet was passed through the W3C validator with no errors.
+- Responsiveness was tested with [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) and by testing on various devices (mobile, tablet, laptop, desktop). [Am I Responsive](https://ui.dev/amiresponsive?url=https://bliss.carlmurray.design) and [Responsive Design Checker](https://www.responsivedesignchecker.com/) was also used to test responsiveness.
+- All HTML files were passed through the W3C validator with no errors ([example validation of Home page](https://validator.w3.org/nu/?doc=https://bliss.carlmurray.design/index.html))
+- The CSS stylesheet was passed through the W3C validator with no errors ([Validation of styles.css](https://jigsaw.w3.org/css-validator/validator?uri=bliss.carlmurray.design/assets/css/styles.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en))
 - W3C Spell Check Validator was used to check for grammatical errors.
-- The website was tested on major browsers including Chrome, Safari, Firefox and Edge.
+- The website was tested on major browsers including Chrome, Safari, Firefox and Edge as detailed in [Testing Process](#testing-process) below.
 - All user flows were tested in depth including navigating through content, clicking CTAs and links, consuming content, video playback and form submission.
 - All forms were tested to ensure validation was present and that forms could be submitted without error
 - Lighthouse was used to test for Performance, Accessibility, Best Practices and SEO and adjustments were made to improve test results. Example of Home page test results here: https://pagespeed.web.dev/analysis/https-bliss-carlmurray-design/cyx73ltgkz?form_factor=desktop
@@ -128,10 +129,10 @@ I used the following technologies, platforms and support in building my project:
 | Links            | Click on each Navigation link, CTA, button, logo, footer link, video   | Correct page is loaded/correct action performed |
 | Form validation  | Enter data into each input field, ensure only valid data is accepted | Form doesn't submit until correct data entered, error message shown |
 | Form submission | Complete each form and submit | Form successfully submits, feedback page shown |
-| Responsiveness | Resize browser window from 320px upwards | Page layout remains intact and adapts to screen size as intended |
+| Responsiveness | Resize viewport window from 320px upwards with Chrome Dev Tools. Use Responsive Design Checker to test various mobile, tablet and large screen sizes | Page layout remains intact and adapts to screen size as intended |
 | Accessibility | Navigate the site with keyboard and screen reader | Tab index works in correct order, website is navigable, content/aria-labels read aloud |
 | Lighthouse | Perform Lighthouse test on each page | Score of > 89 on Performance, Accessibility, Best Practices, SEO |
-
+| Browser compatibility | Test links, layout, appearance, funcitonality and above Tests on Chrome, Safari, Firefox and Edge. | Website looks and functions as intended and passes all tests above
 --------
 
 ![Alt text](/assets/img/readme-img/html-validation.png "HTML validation (for Home page)")
