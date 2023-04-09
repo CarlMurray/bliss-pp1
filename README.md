@@ -1,16 +1,17 @@
 ![Alt text](/assets/img/readme-img/cover-image.png "Cover image")
 ___
-### __The production site is available at https://bliss.carlmurray.design OR https://main.d2k8k5ekazru51.amplifyapp.com__
+### __The production site is available at https://bliss.carlmurray.design OR https://main.d2k8k5ekazru51.amplifyapp.com__ (in case custom domain doesn't work)
 ___
 
-# User Experience
 
-## Project Background 
+# Project Background 
 Bliss is a website that provides mindfulness, meditation and yoga content free of charge to users in the form of videos. The site aims to help users improve their mental and physical wellbeing by providing easy access to helpful resources that can assist them in developing and maintaining healthy habits.
 
 The background of the project is based on the growing interest in holistic health and wellness practices among individuals worldwide. The COVID-19 pandemic has also highlighted the importance of maintaining a healthy mind and body, leading to a surge in the popularity of meditation, yoga and mindfulness practices.
 
 The key goals of the site include providing a user-friendly platform that makes it easy for individuals to access quality content, sharing information about the benefits of these practices, and promoting mental health and wellbeing. The target audience for the site is anyone who is interested in mindfulness, meditation, and yoga practices, regardless of their experience level. The value provided to users of the site is access to quality content that can help them develop healthy habits, reduce stress, and improve their overall wellbeing.
+
+# User Experience
 
 ## Design
 - To guide the development process, wireframes and mockups were designed in Figma. These early designs provided a clear direction for the project, although the final build may differ slightly from the initial designs as various iterations were explored throughout development. 
