@@ -119,7 +119,7 @@ I used the following technologies, platforms and support in building my project:
 - The website was tested on major browsers including Chrome, Safari, Firefox and Edge as detailed in [Testing Process](#testing-process) below.
 - All user flows were tested in depth including navigating through content, clicking CTAs and links, consuming content, video playback and form submission.
 - All forms were tested to ensure validation was present and that forms could be submitted without error
-- Lighthouse was used to test for Performance, Accessibility, Best Practices and SEO and adjustments were made to improve test results. Example of Home page test results here: https://pagespeed.web.dev/analysis/https-bliss-carlmurray-design/cyx73ltgkz?form_factor=desktop
+- Lighthouse was used to test for Performance, Accessibility, Best Practices and SEO and adjustments were made to improve test results. [Example of Home page test results here](https://pagespeed.web.dev/analysis/https-bliss-carlmurray-design/cyx73ltgkz?form_factor=desktop)
 - Accessibility testing was conducted by navigating the site and performing tasks using keyboard navigation and a screen reader (MacOS VoiceOver)
 
 ## Testing Process
@@ -141,12 +141,22 @@ I used the following technologies, platforms and support in building my project:
 
 # Bugs/Issues
 Debugging and troubleshooting were done constantly throughout development, however there were a number of noteworthy issues:
-- During development, the site was tested on an iPhone XS Max to check responsiveness. It was noted that the Newsletter Subscribe CTA and Contact Form CTA were not displaying the correct styling compared to the Chrome DevTools Inspector, and did not have the correct border radius. After further experimentation and testing, a solution was found on Stack Overflow (https://stackoverflow.com/questions/20640182/iphone-overriding-all-of-my-styles-on-an-inputtype-submit). The cause of the "bug" relates to how Safari on an iPhone renders `<input type="submit">` and was fixed by adding "-webkit-appearance:none;" to the element's CSS rule. 
+
+## Resolved issues
+- During development, the site was tested on an iPhone XS Max to check responsiveness. It was noted that the Newsletter Subscribe CTA and Contact Form CTA were not displaying the correct styling compared to the Chrome DevTools Inspector, and did not have the correct border radius. After further experimentation and testing, a solution was found on Stack Overflow [See Stack Overflow](https://stackoverflow.com/questions/20640182/iphone-overriding-all-of-my-styles-on-an-inputtype-submit). The cause of the "bug" relates to how Safari on an iPhone renders `<input type="submit">` and was fixed by adding "-webkit-appearance:none;" to the element's CSS rule. 
+
+![Alt text](/assets/img/readme-img/bug-cta.png "Bug with CTA on iPhone Safari")
+
 - When testing the site on Firefox, it was observed that images in the main content cards were significantly smaller in size than intended. This was fixed by changing the `width` property of the `img` to `max-width`.
-- As the site was tested on different browsers and devices, it was noted that the dotted `<hr>` element joining content cards was appearing as square/rectangular dashes rather than circular dots on iOS browsers. Unfortunately there is currently no natively supported solution for this problem so it was left as is, with the intention of replacing the dots with an SVG in future. (https://stackoverflow.com/questions/11280676/how-to-create-dotted-border-with-round-dots-in-webkit-browsers)
+
+## Unresolved issues
+- As the site was tested on different browsers and devices, it was noted that the dotted `<hr>` element joining content cards was appearing as square/rectangular dashes rather than circular dots on iOS browsers. Unfortunately there is currently no natively supported solution for this problem so it was left as is, with the intention of replacing the dots with an SVG in future. [See Stack Overflow](https://stackoverflow.com/questions/11280676/how-to-create-dotted-border-with-round-dots-in-webkit-browsers)
+
+![Alt text](/assets/img/readme-img/bug-hr.png "Bug with `<hr>` element")
+
 - When testing on different browsers, it was observed that the font weight of the Navigation Links appeared heavier in Safari than in Chrome and as intended. It was found that this is due to the rendering engine of Safari and there is no solution for this "issue". Adding `-webkit-font-smoothing: antialiased;` made a minor visual improvement.
-- The site was tested on a 42" LG Smart TV experimentally. The native LG web browser does not render certain elements and styles correctly and browser support is limited. Designing for smart TVs was outside the scope of this project but future revisions may address this functionality.
-- During deployment, an attempt was made to set up CloudFlare on the site, however this was unsuccessful. It is believed that there were issues with DNS records and Nameservers, along with lengthy DNS propagation that prevented this from functioning as intended and as such the initiative was abandoned and deemed unnecessary for this project.
+- The site was tested on a 42" LG Smart TV experimentally. The native LG web browser does not render certain elements and styles correctly and browser support is limited. Designing for smart TVs and non-standard browsers was outside the scope of this project but future revisions may address this functionality.
+- During deployment, an attempt was made to set up CloudFlare on the site, however this was unsuccessful. It is believed that there were issues with DNS records and Nameservers as the main domain is hosted with another provider, along with lengthy DNS propagation that prevented this from functioning as intended and as such the initiative was abandoned and deemed unnecessary for this project.
 
 # Deployment
 - A DNS record for a subdomain of my portfolio, carlmurray.design, was created for this project.
