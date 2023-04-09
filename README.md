@@ -65,7 +65,7 @@ Bliss has four primary pages - Home, Exercises, About and Contact. The default l
 
 Bliss also features a unique page for each Exercise. There are currently six of these pages. A "Back to Exercises" button features on each page to allow users to easily navigate and browse content.
 
-Finally, there are two "Thank you" pages which provide feedback when a user submits the contact form or signs up for the newsletter.
+Finally, there are two "Thank you" pages which provide feedback when a user submits the contact form or signs up for the newsletter, as well as a custom 404 error page with a CTA to bring the user to the Home page.
 
 ![Alt text](/assets/img/readme-img/sitemap.png "Bliss sitemap")
 
@@ -183,6 +183,7 @@ Debugging and troubleshooting were done constantly throughout development, howev
 ![Alt text](/assets/img/readme-img/bug-cta.png "Bug with CTA on iPhone Safari")
 
 - When testing the site on Firefox, it was observed that images in the main content cards were significantly smaller in size than intended. This was fixed by changing the `width` property of the `img` to `max-width`.
+- After adding a custom 404 error page, I could not get it to show after adding an invalid extension to the URL. While troubleshooting, I found that this was because AWS had already set up a redirect rule to redirect 404 errors back to the home page. For the sake of demonstration, I deleted this rule and the 404 page now works when an invalid URL is entered. I also had to add absolute links to this page as I found during testing that relative links in the navigation and CTA were not working specifically on the 404 page only.
 
 ## Unresolved issues
 - As the site was tested on different browsers and devices, it was noted that the dotted `<hr>` element joining content cards was appearing as square/rectangular dashes rather than circular dots on iOS browsers. Unfortunately there is currently no natively supported solution for this problem so it was left as is, with the intention of replacing the dots with an SVG in future. [See Stack Overflow](https://stackoverflow.com/questions/11280676/how-to-create-dotted-border-with-round-dots-in-webkit-browsers)
