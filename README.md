@@ -3,14 +3,16 @@ ___
 ### __The production site is available at https://bliss.carlmurray.design OR https://main.d2k8k5ekazru51.amplifyapp.com__
 ___
 
-# Project Background 
+# User Experience
+
+## Project Background 
 Bliss is a website that provides mindfulness, meditation and yoga content free of charge to users in the form of videos. The site aims to help users improve their mental and physical wellbeing by providing easy access to helpful resources that can assist them in developing and maintaining healthy habits.
 
 The background of the project is based on the growing interest in holistic health and wellness practices among individuals worldwide. The COVID-19 pandemic has also highlighted the importance of maintaining a healthy mind and body, leading to a surge in the popularity of meditation, yoga and mindfulness practices.
 
 The key goals of the site include providing a user-friendly platform that makes it easy for individuals to access quality content, sharing information about the benefits of these practices, and promoting mental health and wellbeing. The target audience for the site is anyone who is interested in mindfulness, meditation, and yoga practices, regardless of their experience level. The value provided to users of the site is access to quality content that can help them develop healthy habits, reduce stress, and improve their overall wellbeing.
 
-# Design
+## Design
 - To guide the development process, wireframes and mockups were designed in Figma. These early designs provided a clear direction for the project, although the final build may differ slightly from the initial designs as various iterations were explored throughout development. 
 - A muted colour palette was chosen to represent the site's values of calmness and peace, while creating an atmosphere of "bliss" for users. Coolors was used to generate the presentation image of the colour palette. (https://coolors.co/ffffff-fae5ce-f7e5d1-fcd3a3-f5cb82-e3b66a-7a5e40-3b3b3b-ff5f33)
 
@@ -18,25 +20,25 @@ The key goals of the site include providing a user-friendly platform that makes 
 
 ![Alt text](/assets/img/readme-img/colour-palette.png "Colour palette")
 
-# Features
+## Features
 
-## Navigation Bar
+### Navigation Bar
 - The site features a responsive Navigation Bar which includes links to Home, Exercises, About and Contact. 
 - Although clicking the logo brings users Home, a dedicated Home link is included in the Navigation Bar in line with UX best practices. 
 - Other than Home, links are ordered by importance - Exercises is the main content of the site that users will interact with and as such comes before the About and Contact links.
 - The active page a user is on is visually highlighted to help orient the user as they navigate the site.
 
-## Landing Content
+### Landing Content
 - The landing page shows a visual illustration of a person in a yoga pose along with the large headline and a short paragraph of descriptive text - these elements immediately communicate the intent of the site.
 - There are two CTAs on the landing page - the primary CTA ("Get started") links to the "Exercises" page and enables users to quickly engage with the site's content. The secondary CTA ("Learn more") links to the "About" page so users can read more about the site's purpose and intent.
 
-## Homepage
+### Homepage
 - On the Homepage, users are greeted with three concise paragraphs of text that are accompanied by engaging illustrations. These elements work in tandem to effectively communicate the value of the site to users, providing them with a clear understanding of the benefits that can be gained from utilising the resources available. 
 - Additionally, located at the end of the Homepage, a prominent CTA enables users to seamlessly transition from the Homepage to the Exercises page, where they can begin exploring the available content in more detail.
 
 ![Alt text](/assets/img/readme-img/home-page.png "Home page")
 
-## Exercises
+### Exercises
 - The site features an Exercises page which is where the main content of the site resides.
 - To help users easily navigate through the available resources, the content is thoughtfully categorised by exercise type. To further enhance the user experience, a compelling combination of imagery and headlines is used to effectively communicate the theme of each video. This not only creates an aesthetically pleasing and visually engaging website but also helps users to quickly identify the content that is most relevant to their individual needs and interests.
 - Located at the bottom of the page, there is a user-friendly Newsletter form that encourages users to subscribe for notifications about new content, once they have explored the existing site offerings. This feature enables users to stay up-to-date with the latest mindfulness, meditation and yoga resources available on the site, making it easier for them to maintain their healthy habits and continue to prioritise their wellbeing.
@@ -45,29 +47,29 @@ The key goals of the site include providing a user-friendly platform that makes 
 
 ![Alt text](/assets/img/readme-img/exercises-page.png "Exercises page")
 
-### Exercises in detail
+#### Exercises in detail
 - Upon clicking an Exercise card, users are seamlessly directed to a dedicated page that displays the featured video content and a succinct description. This streamlined user flow ensures that individuals can easily access the resources they need, while also providing them with the necessary context to make informed decisions about which content is most relevant to their needs. 
 - To enhance the user experience even further, a convenient Back button is prominently featured on the page, allowing users to effortlessly navigate back to the main Exercises page.
 
 ![Alt text](/assets/img/readme-img/exercise-video.png "Exercise content")
 
-## About
+### About
 - The site has an About page that describes the motivation and inspiration behind its creation, providing users with a deeper understanding of the site's purpose and mission. Here, users can learn more about the origins of the site and the driving forces that led to its establishment, helping them to connect with the content on a more personal level.
 - There are two CTAs in the landing section - the primary CTA ("Get started") links to the "Exercises" page and enables users to quickly engage with the site's content. The secondary CTA ("Learn more") scrolls down the page and brings users straight to the content so they can read more about the site's purpose and intent.
 
 ![Alt text](/assets/img/readme-img/about-page.png "About page")
 
-## Contact
+### Contact
 - The site features a user-friendly contact form that is both intuitive and straightforward, making it simple for individuals to submit their inquiries without being bogged down by having to enter unnecessary details. 
 - The form uses validation to ensure all input fields are complete and data is valid.
 - Once submitted, users receive clear and informative feedback, and are directed to a Thank You page that features a prominent CTA designed to encourage them to continue exploring the site's content on the Exercises page.
 
 ![Alt text](/assets/img/readme-img/contact-page.png "Contact page")
 
-## Footer
+### Footer
 - Located in the footer section, users can easily find social media links to the site's official Instagram, Facebook, and Twitter pages. This convenient feature not only allows users to stay up-to-date with the latest news and updates from the site, but also enables them to engage with other like-minded individuals who share a common interest in mindfulness, meditation, and yoga practices.
 
-## Responsiveness
+### Responsiveness
 - The site was designed to be responsive and function on a range of screen sizes from 320px wide and above.
 
 # Technologies Used
