@@ -51,7 +51,7 @@ The key goals of the site include providing a user-friendly platform that makes 
 ## Design
 - To guide the development process, wireframes and mockups were designed in Figma. These early designs provided a clear direction for the project, although the final build may differ slightly from the initial designs as various iterations were explored throughout development. 
 - A muted colour palette was chosen to represent the site's values of calmness and peace, while creating an atmosphere of "bliss" for users. Coolors was used to generate the [presentation image](https://coolors.co/ffffff-fae5ce-f7e5d1-fcd3a3-f5cb82-e3b66a-7a5e40-3b3b3b-ff5f33) of the colour palette. 
-- PT Serif was used for headings in the site and was chosen as it's traditional appearance conveys a sense of elegance and sophistication, and perfectly matches the theme of mindfulness. Conversely, PT Sans was chosen for the body text as it's simplicity and modernity provide balance to the serif typeface. Using two complimentary fonts, one for headings and one for body, creates a clear visual hierarchy of content for the user. 
+- PT Serif was used for headings in the site and was chosen as its traditional appearance conveys a sense of elegance and sophistication, and perfectly matches the theme of mindfulness. Conversely, PT Sans was chosen for the body text as its simplicity and modernity provide balance to the serif typeface. Using two complimentary fonts, one for headings and one for body, creates a clear visual hierarchy of content for the user. 
 
 ![Alt text](/assets/img/readme-img/figma-screens.png "Figma screens")
 
@@ -167,7 +167,7 @@ I used the following technologies, platforms and support in building my project:
 | Responsiveness | Resize viewport window from 320px upwards with Chrome Dev Tools. Use Responsive Design Checker to test various mobile, tablet and large screen sizes | Page layout remains intact and adapts to screen size as intended |
 | Accessibility | Navigate the site with keyboard and screen reader | Tab index works in correct order, website is navigable, content/aria-labels read aloud |
 | Lighthouse | Perform Lighthouse test on each page | Score of > 89 on Performance, Accessibility, Best Practices, SEO |
-| Browser compatibility | Test links, layout, appearance, funcitonality and above Tests on Chrome, Safari, Firefox and Edge. | Website looks and functions as intended and passes all tests above
+| Browser compatibility | Test links, layout, appearance, functionality and above Tests on Chrome, Safari, Firefox and Edge. | Website looks and functions as intended and passes all tests above
 --------
 
 ![Alt text](/assets/img/readme-img/html-validation.png "HTML validation (for Home page)")
