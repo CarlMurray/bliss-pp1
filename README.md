@@ -187,15 +187,20 @@ Steps for deployment on AWS:
 - https://storyset.com/illustration/letter/bro
 
 ### Favicon
-- Favicon Generator (favicon.io)
+- [Favicon Generator](https://favicon.io)
 
 ### Other
-- Colour palette presentation image: https://coolors.co/ffffff-fae5ce-f7e5d1-fcd3a3-f5cb82-e3b66a-7a5e40-3b3b3b-ff5f33
-- Social icons: Font Awesome
-- Fonts: Google Fonts
+- Colour palette presentation image: [Coolors](https://coolors.co/ffffff-fae5ce-f7e5d1-fcd3a3-f5cb82-e3b66a-7a5e40-3b3b3b-ff5f33)
+- Social icons: [FontAwesome](https://fontawesome.com/v4/)
+- Fonts: [Google Fonts](https://fonts.google.com/)
 
 ### Educational resources
-- MDN Documentation
-- W3Schools
-- developedbyed (YouTube)
-- Flexbox Zombies
+- [MDN Documentation](https://developer.mozilla.org/en-US/)
+- [W3Schools](https://www.w3schools.com/)
+- [developedbyed](https://www.youtube.com/@developedbyed) (YouTube)
+- [Flexbox Zombies](https://mastery.games/post/flexboxzombies2/)
+
+# Acknowledgements
+The site was completed as a Portfolio 1 Project piece for the Full Stack Software Developer (e-Commerce) Diploma at the Code Institute. As such I would like to thank my mentor Precious Ijege, the Slack community, and all at the Code Institute for their help and support. Wawas Woods is a fictional company but it exists in everything but the business title. Currently it is more of a hobby!
+
+This project was completed as my Portfolio Project 1 submission for the Full Stack Web Developer (eCommerce) Diploma at the Code Institute. I would like to thank my mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/), the Code Institute team and the Slack community for their support throughout this project.
