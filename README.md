@@ -86,6 +86,12 @@ Finally, there are two "Thank you" pages which provide feedback when a user subm
 ### Responsiveness
 - The site was designed to be responsive and function on a range of screen sizes from 320px wide and above.
 
+### Future Features
+There are a number of features that would improve the User Experience that I would like to implement in the future:
+- Signup/Login functionality with user accounts would enable users to save content they like and track their activity.
+- User generated content would allow users to contribute to the bliss community.
+- Comments and reviews would allow users to engage with the content and provide recommendations to other users.
+
 # Technologies Used
 I used the following technologies, platforms and support in building my project:
 - Wireframes and mockups were designed in Figma
