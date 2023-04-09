@@ -154,11 +154,22 @@ Debugging and troubleshooting were done constantly throughout development, howev
 - Custom domain (https://bliss.carlmurray.design) was added with an SSL certificate on AWS Amplify.
 - __The production site is available at https://bliss.carlmurray.design OR https://main.d2k8k5ekazru51.amplifyapp.com__
 
-Steps for deployment on AWS:
-- Navigate to AWS Amplify dashboard
-- Select "New app"
-- Connect GitHub and select repository, main branch
+### Steps for deployment on AWS:
+- Navigate to AWS Amplify dashboard (sign-up required)
+- Select "New app" - "Host Web App"
+![Alt text](/assets/img/readme-img/deployment-1.png "Deployment")
+
+- Connect GitHub 
+![Alt text](/assets/img/readme-img/deployment-2.png "Deployment")
+- Select repository, main branch
+![Alt text](/assets/img/readme-img/deployment-3.png "Deployment")
+
+- Click checkbox and then Next
+![Alt text](/assets/img/readme-img/deployment-4.png "Deployment")
+
 - Click "Save and deploy"
+![Alt text](/assets/img/readme-img/deployment-5.png "Deployment")
+
 - Optional: Add a custom domain through the "Domain management" tab
 
 # Credits
