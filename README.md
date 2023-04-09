@@ -218,6 +218,26 @@ Debugging and troubleshooting were done constantly throughout development, howev
 
 - Optional: Add a custom domain through the "Domain management" tab
 
+### Steps for cloning the repository
+
+1. Click on the "Code" button near the top right corner of the page.
+2. Copy the HTTPS or SSH URL that appears in the box.
+3. Open your terminal (or Git Bash on Windows) and navigate to the directory where you want to clone the repository.
+4. Type "git clone" followed by a space, and then paste the URL you copied in step 3.
+5. Press enter to run the command. This will clone the repository onto your local machine.
+6. You should now have a local copy of the GitHub repository on your machine.
+
+### Steps for forking the repository
+
+1. Click the "Fork" button near the top right corner of the page. This will create a copy of the repository in your own GitHub account.
+2. Once the fork is complete, you will be redirected to the forked repository in your account.
+3. If you haven't already, clone the forked repository to your local machine using the steps outlined in the previous answer.
+4. Make any changes or additions you want to the code in your local copy of the repository.
+5. Commit your changes to your local repository using the "git commit" command.
+6. Push your changes to the forked repository on GitHub using the "git push" command.
+7. If you want to contribute your changes back to the original repository, create a pull request by going to the original repository's page and clicking the "New pull request" button. From there, you can compare your changes to the original repository and request that they be merged.
+8. You should now have a forked copy of the GitHub repository in your account, and you can make changes to it and contribute back to the original repository if desired.
+
 # Credits
 
 ## Images/Content
