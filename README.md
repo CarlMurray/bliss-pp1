@@ -222,6 +222,5 @@ Debugging and troubleshooting were done constantly throughout development, howev
 - [Flexbox Zombies](https://mastery.games/post/flexboxzombies2/)
 
 # Acknowledgements
-The site was completed as a Portfolio 1 Project piece for the Full Stack Software Developer (e-Commerce) Diploma at the Code Institute. As such I would like to thank my mentor Precious Ijege, the Slack community, and all at the Code Institute for their help and support. Wawas Woods is a fictional company but it exists in everything but the business title. Currently it is more of a hobby!
 
 This project was completed as my Portfolio Project 1 submission for the Full Stack Web Developer (eCommerce) Diploma at the Code Institute. I would like to thank my mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/), the Code Institute team and the Slack community for their support throughout this project.
