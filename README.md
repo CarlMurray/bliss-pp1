@@ -94,21 +94,21 @@ There are a number of features that would improve the User Experience that I wou
 
 # Technologies Used
 I used the following technologies, platforms and support in building my project:
-- Wireframes and mockups were designed in Figma
-- The website is built with HTML/CSS only.
+- Wireframes and mockups were designed in [Figma](https://www.figma.com/)
+- The website is built with [HTML](https://html.spec.whatwg.org/)/[CSS](https://www.w3.org/Style/CSS/Overview.en.html) only.
 - The Code Institute modules/lessons aided my learning and many of the concepts learned were applied in this project
-- Although not part of the Code Institute curriculum, I used various online resources to learn CSS Flexbox which plays an instrumental role in the styling of the website.
-- Stack Overflow was used for troubleshooting and debugging throughout the project, as referenced.
-- MacOS VoiceOver was used for accessibility testing.
-- Git was used for version control
-- GitHub was used for the project repository
-- Google Fonts was used for all fonts on the site
-- Storyset.com and Unsplash were the sources of all imagery/illustrations
-- FontAwesome was used for the social media icons which then had additional styling applied to them
-- Favicon Generator (favicon.io) was used to generate the favicon used
-- The site is hosted on AWS Amplify
-- Custom domain registered with NameSilo, with a specific subdomain for this project (https://bliss.carlmurray.design)
-- Google Analytics was linked to the site to track site traffic and user behaviour.
+- Although not part of the Code Institute curriculum, I used various online resources to learn [CSS Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox) which plays an instrumental role in the styling of the website.
+- [Stack Overflow](https://stackoverflow.com/) was used for troubleshooting and debugging throughout the project, as referenced.
+- [MacOS VoiceOver](https://bbc.github.io/accessibility-news-and-you/assistive-technology/testing-steps/voiceover-mac.html) was used for accessibility testing.
+- [Git](https://git-scm.com/) was used for version control
+- [GitHub](https://github.com/) was used for the project repository
+- [Google Fonts](https://fonts.google.com/) was used for all fonts on the site
+- [Storyset.com](https://storyset.com/) and [Unsplash](https://unsplash.com/) were the sources of all imagery/illustrations
+- [FontAwesome](https://fontawesome.com/v4/) was used for the social media icons which then had additional styling applied to them
+- [Favicon Generator](https://favicon.io) was used to generate the favicon used
+- The site is hosted on [AWS Amplify](https://aws.amazon.com/amplify/)
+- Custom domain registered with [NameSilo](https://www.namesilo.com/), with a specific subdomain for this project (https://bliss.carlmurray.design)
+- [Google Analytics](https://analytics.google.com/analytics/web/) was linked to the site to track site traffic and user behaviour.
 
 # Testing
 - Responsiveness was tested with Chrome Dev Tools and by testing on various devices (mobile, tablet, laptop, desktop). Am I Responsive was also used to test responsiveness.
