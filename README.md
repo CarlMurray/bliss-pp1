@@ -163,7 +163,7 @@ Steps for deployment on AWS:
 
 # Credits
 
-## Images
+## Images/Content
 
 ### Yoga Exercise Images: 
 - https://unsplash.com/photos/nqUHQkuVj3c
@@ -186,15 +186,15 @@ Steps for deployment on AWS:
 - https://storyset.com/illustration/high-five/pana
 - https://storyset.com/illustration/letter/bro
 
-### Favicon
+## Favicon
 - [Favicon Generator](https://favicon.io)
 
-### Other
+## Other
 - Colour palette presentation image: [Coolors](https://coolors.co/ffffff-fae5ce-f7e5d1-fcd3a3-f5cb82-e3b66a-7a5e40-3b3b3b-ff5f33)
 - Social icons: [FontAwesome](https://fontawesome.com/v4/)
 - Fonts: [Google Fonts](https://fonts.google.com/)
 
-### Educational resources
+## Educational resources
 - [MDN Documentation](https://developer.mozilla.org/en-US/)
 - [W3Schools](https://www.w3schools.com/)
 - [developedbyed](https://www.youtube.com/@developedbyed) (YouTube)
