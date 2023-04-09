@@ -21,6 +21,16 @@ The key goals of the site include providing a user-friendly platform that makes 
 
 ![Alt text](/assets/img/readme-img/colour-palette.png "Colour palette")
 
+## Site Structure
+
+Bliss has four primary pages - Home, Exercises, About and Contact. The default landing page is Home. Exercises, About and Contact are all accessible from the Navigation bar. CTAs featured throughout the site pages help users discover and navigate the site after completing a task - e.g. a "Get started" CTA features at the top and bottom of the Home page which lets users navigate straight to the Exercises page. 
+
+Bliss also features a unique page for each Exercise. There are currently six of these pages. A "Back to Exercises" button features on each page to allow users to easily navigate and browse content.
+
+Finally, there are two "Thank you" pages which provide feedback when a user submits the contact form or signs up for the newsletter.
+
+![Alt text](/assets/img/readme-img/sitemap.png "Bliss sitemap")
+
 ## Features
 
 ### Navigation Bar
