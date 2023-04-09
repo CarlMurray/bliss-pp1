@@ -3,6 +3,41 @@ ___
 ### __The production site is available at https://bliss.carlmurray.design OR https://main.d2k8k5ekazru51.amplifyapp.com__ (in case custom domain doesn't work)
 ___
 
+# Table of Contents
+
+- [Project Background](#project-background)
+- [User Experience](#user-experience)
+  - [Design](#design)
+  - [Site Structure](#site-structure)
+  - [Features](#features)
+    - [Navigation Bar](#navigation-bar)
+    - [Landing Content](#landing-content)
+    - [Homepage](#homepage)
+    - [Exercises](#exercises)
+      - [Exercises in detail](#exercises-in-detail)
+    - [About](#about)
+    - [Contact](#contact)
+    - [Footer](#footer)
+    - [Responsiveness](#responsiveness)
+    - [Future Features](#future-features)
+- [Technologies Used](#technologies-used)
+- [Testing](#testing)
+  - [Testing Process](#testing-process)
+- [Bugs/Issues](#bugsissues)
+  - [Resolved issues](#resolved-issues)
+  - [Unresolved issues](#unresolved-issues)
+- [Deployment](#deployment)
+  - [Steps for deployment on AWS](#steps-for-deployment-on-aws)
+- [Credits](#credits)
+  - [Images/Content](#imagescontent)
+    - [Yoga Exercise Images](#yoga-exercise-images)
+    - [Meditation Exercise Images](#meditation-exercise-images)
+    - [Illustrations](#illustrations)
+  - [Favicon](#favicon)
+  - [Other](#other)
+  - [Educational resources](#educational-resources)
+- [Acknowledgements](#acknowledgements)
+___
 
 # Project Background 
 Bliss is a website that provides mindfulness, meditation and yoga content free of charge to users in the form of videos. The site aims to help users improve their mental and physical wellbeing by providing easy access to helpful resources that can assist them in developing and maintaining healthy habits.
