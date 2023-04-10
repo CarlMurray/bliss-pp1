@@ -1,6 +1,6 @@
 ![Alt text](/assets/img/readme-img/cover-image.png "Cover image")
 ___
-### __The production site is available at https://bliss.carlmurray.design OR https://main.d2k8k5ekazru51.amplifyapp.com__ (in case custom domain doesn't work)
+### __The production site is available at https://bliss.carlmurray.design OR https://carlmurray.github.io/bliss-pp1/ (in case custom domain doesn't work)
 ___
 
 # Table of Contents
@@ -205,7 +205,8 @@ ___
 - A DNS record for a subdomain of my portfolio, carlmurray.design, was created for this project.
 - The GitHub repository was connected to AWS Amplify for hosting.
 - Custom domain (https://bliss.carlmurray.design) was added with an SSL certificate on AWS Amplify.
-- __The production site is available at https://bliss.carlmurray.design OR https://main.d2k8k5ekazru51.amplifyapp.com__
+- __The production site is available at https://bliss.carlmurray.design OR https://carlmurray.github.io/bliss-pp1/
+- Note: Site was deployed to GitHub Pages for project submission and acts as a backup to the AWS/custom domain site. Both sites are identical and are built from the same repo/branch and source code.
 
 ### Steps for deployment on AWS:
 - Navigate to AWS Amplify dashboard (sign-up required)
