@@ -46,6 +46,8 @@ The background of the project is based on the growing interest in holistic healt
 
 The key goals of the site include providing a user-friendly platform that makes it easy for individuals to access quality content, sharing information about the benefits of these practices, and promoting mental health and wellbeing. The target audience for the site is anyone who is interested in mindfulness, meditation, and yoga practices, regardless of their experience level. The value provided to users of the site is access to quality content that can help them develop healthy habits, reduce stress, and improve their overall wellbeing.
 
+___
+
 # User Experience
 
 ## Design
@@ -128,6 +130,8 @@ There are a number of features that would improve the User Experience that I wou
 - User generated content would allow users to contribute to the bliss community.
 - Comments and reviews would allow users to engage with the content and provide recommendations to other users.
 
+___
+
 # Technologies Used
 I used the following technologies, platforms and support in building my project:
 - Wireframes and mockups were designed in [Figma](https://www.figma.com/)
@@ -145,6 +149,8 @@ I used the following technologies, platforms and support in building my project:
 - The site is hosted on [AWS Amplify](https://aws.amazon.com/amplify/)
 - Custom domain registered with [NameSilo](https://www.namesilo.com/), with a specific subdomain for this project (https://bliss.carlmurray.design)
 - [Google Analytics](https://analytics.google.com/analytics/web/) was linked to the site to track site traffic and user behaviour.
+
+___
 
 # Testing
 - Responsiveness was tested with [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) and by testing on various devices (mobile, tablet, laptop, desktop). [Am I Responsive](https://ui.dev/amiresponsive?url=https://bliss.carlmurray.design) and [Responsive Design Checker](https://www.responsivedesignchecker.com/) was also used to test responsiveness.
@@ -173,7 +179,7 @@ I used the following technologies, platforms and support in building my project:
 ![Alt text](/assets/img/readme-img/html-validation.png "HTML validation (for Home page)")
 ![Alt text](/assets/img/readme-img/css-validation.png "CSS Validation")
 ![Alt text](/assets/img/readme-img/lighthouse-test.png "Test results for Home page")
-
+___
 # Bugs/Issues
 Debugging and troubleshooting were done constantly throughout development, however there were a number of noteworthy issues:
 
@@ -193,6 +199,7 @@ Debugging and troubleshooting were done constantly throughout development, howev
 - When testing on different browsers, it was observed that the font weight of the Navigation Links appeared heavier in Safari than in Chrome and as intended. It was found that this is due to the rendering engine of Safari and there is no solution for this "issue". Adding `-webkit-font-smoothing: antialiased;` made a minor visual improvement.
 - The site was tested on a 42" LG Smart TV experimentally. The native LG web browser does not render certain elements and styles correctly and browser support is limited. Designing for smart TVs and non-standard browsers was outside the scope of this project but future revisions may address this functionality.
 - During deployment, an attempt was made to set up CloudFlare on the site, however this was unsuccessful. It is believed that there were issues with DNS records and Nameservers as the main domain is hosted with another provider, along with lengthy DNS propagation that prevented this from functioning as intended and as such the initiative was abandoned and deemed unnecessary for this project.
+___
 
 # Deployment
 - A DNS record for a subdomain of my portfolio, carlmurray.design, was created for this project.
@@ -237,6 +244,7 @@ Debugging and troubleshooting were done constantly throughout development, howev
 6. Push your changes to the forked repository on GitHub using the "git push" command.
 7. If you want to contribute your changes back to the original repository, create a pull request by going to the original repository's page and clicking the "New pull request" button. From there, you can compare your changes to the original repository and request that they be merged.
 8. You should now have a forked copy of the GitHub repository in your account, and you can make changes to it and contribute back to the original repository if desired.
+___
 
 # Credits
 
