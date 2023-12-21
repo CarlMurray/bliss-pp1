@@ -232,6 +232,7 @@ h2 {
     align-items: center;
     justify-content: space-evenly;
     padding: 0 50px;
+    opacity: 0;
 }
 
 .why-bliss-card img {
@@ -322,9 +323,10 @@ h2 {
 /* styles for graphic in landing/intro */
 .landing-graphic {
     flex: 1;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
+    /* opacity: 0; */
 }
 
 .landing-graphic img {
@@ -398,6 +400,7 @@ h3 {
     display: flex;
     gap: 20px;
     justify-content: space-between;
+    opacity: 0;
 }
 
 /* exercise cards on exercises page */
