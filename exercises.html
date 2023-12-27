@@ -2,19 +2,11 @@
 <html lang="en">
 
 <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ECP35F8B91"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-ECP35F8B91');
-    </script>
     <!-- add jQuery -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <!-- load javascript file -->
     <script src="assets/js/script.js" defer></script>    
+    <script src="assets/js/newsletter.js" defer></script>    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -174,17 +166,15 @@
 
         <div class="newsletter-container">
             <p class="landing-paragraph">
-                Sign up to our newsletter and be the first to know about our latest mindfulness resources, exercises and
-                tips.
+              Sign up to our newsletter and be the first to know about our latest mindfulness resources, exercises and tips.
             </p>
             <!-- Newsletter form -->
-            <form class="newsletter-form" action="newsletter-thank-you.html">
-                <input class="newsletter-email text-field" type="email" class="text-field"
-                    placeholder="Enter your email address" required>
-                <input class="newsletter-cta primary-cta" type="submit" value="Subscribe">
+            <form class="newsletter-form" id="newsletterForm" action="">
+              <input class="newsletter-email text-field" type="email" class="text-field" placeholder="Enter your email address" required>
+              <input class="newsletter-cta primary-cta" type="submit" value="Subscribe">
             </form>
+          </div>
         </div>
-    </div>
         <!-- footer with social links -->
         <footer class="page-footer">
             <div class="footer-social-links">

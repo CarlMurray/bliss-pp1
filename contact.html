@@ -2,8 +2,6 @@
 <html lang="en">
 
 <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ECP35F8B91"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
@@ -15,6 +13,7 @@
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <!-- load javascript file -->
     <script src="assets/js/script.js" defer></script>
+    <script src="assets/js/contact.js" defer></script>
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -37,6 +36,14 @@
     <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png">
     <link rel="manifest" href="assets/img/favicon/site.webmanifest">
+
+     <!-- add emailjs -->
+     <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+     <script>
+       (function () {
+         emailjs.init("nAMWVoO4q5WTnV_xg");
+       })();
+     </script>
 </head>
 
 <body>
@@ -74,16 +81,18 @@
                     </div>
                     <!-- contact form -->
                     <div class="contact-form-container">
-                        <form class="contact-form" action="contact-thank-you.html">
+                        <form class="contact-form" id="contact-form" action="">
                             <div class="input-container">
+                                <input type="hidden" name="contact_number" />
                                 <input class="text-field contact-name-email" type="name" placeholder="Name" required>
                                 <input class="text-field contact-name-email" type="email" placeholder="Email Address" required>
                             </div>
                             <textarea class="text-field contact-paragraph"
                                 placeholder="What's on your mind?" required></textarea>
 
-                            <input type="submit" class="contact-cta primary-cta" value="Send it our way!">
+                            <input type="submit" id="submit-input" class="contact-cta primary-cta" value="Send it our way!">
                         </form>
+                        <h3 id="contact-feedback-success" class="hidden">Thanks for reaching out! We'll get back to you soon.</h3>
                     </div>
                 </div>
 

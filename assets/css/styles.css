@@ -53,6 +53,10 @@ header {
     border-bottom: 1px solid var(--headline-color);
 }
 
+.hidden {
+    display: none;
+}
+
 /* bliss logo top left nav bar  */
 .logo {
     font-size: 48px;
@@ -117,7 +121,7 @@ h1 {
 
 /* positioning for landing text - h1 and paragraph */
 .landing-text {
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: center;
     max-width: 80%;
